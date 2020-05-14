@@ -208,8 +208,8 @@ void TIM1_UP_TIM10_IRQHandler(void)
   HAL_TIM_IRQHandler(&htim10);
   /* USER CODE BEGIN TIM1_UP_TIM10_IRQn 1 */
     HAL_ADCEx_InjectedStart(&hadc1);
-    MIC_SAMPLES[CURRENT_SAMPLE][0] = (float)HAL_ADCEx_InjectedGetValue(&hadc1,ADC_INJECTED_RANK_1) * k_adc;
-    MIC_SAMPLES[CURRENT_SAMPLE][1] = (float)HAL_ADCEx_InjectedGetValue(&hadc1,ADC_INJECTED_RANK_2) * k_adc;
+    MIC_SAMPLES[CURRENT_SAMPLE][0] = HAL_ADCEx_InjectedGetValue(&hadc1,ADC_INJECTED_RANK_1);
+    MIC_SAMPLES[CURRENT_SAMPLE][1] = HAL_ADCEx_InjectedGetValue(&hadc1,ADC_INJECTED_RANK_2);
     CURRENT_SAMPLE++;
   /* USER CODE END TIM1_UP_TIM10_IRQn 1 */
 }
@@ -222,6 +222,7 @@ void EXTI15_10_IRQHandler(void)
   /* USER CODE BEGIN EXTI15_10_IRQn 0 */
 
   /* USER CODE END EXTI15_10_IRQn 0 */
+  HAL_Delay(300);
   HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_13);
   /* USER CODE BEGIN EXTI15_10_IRQn 1 */
 

@@ -55,7 +55,7 @@ enum Modes {
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-volatile float MIC_SAMPLES[SAMPLE_NUM][2];
+volatile uint16_t MIC_SAMPLES[SAMPLE_NUM][2];
 volatile uint16_t CURRENT_SAMPLE = 0;
 char MIC_STR[32];
 uint8_t shift = 0;
@@ -139,10 +139,11 @@ int main(void) {
             }
         } else if (mode == REAL_TIME) {
             while (1) {
-//                sprintf(MIC_STR, "%f,%f\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
-                sprintf(MIC_STR, "wtf3\r\n");
-                HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
-                CURRENT_SAMPLE = 0;
+                if (CURRENT_SAMPLE) {
+                    sprintf(MIC_STR, "%d,%d\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
+                    HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
+                    CURRENT_SAMPLE = 0;
+                }
                 if (change_mode) {
                     change_mode = false;
                     break;
@@ -150,10 +151,11 @@ int main(void) {
             }
         } else if (mode == SAMPLE) {
             while (1) {
-//                sprintf(MIC_STR, "%f,%f\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
-                sprintf(MIC_STR, "wtf4\r\n");
-                HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
-                CURRENT_SAMPLE = 0;
+                if (CURRENT_SAMPLE) {
+                    sprintf(MIC_STR, "%d,%d\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
+                    HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
+                    CURRENT_SAMPLE = 0;
+                }
                 if (change_mode) {
                     change_mode = false;
                     break;
@@ -208,18 +210,17 @@ void SystemClock_Config(void) {
 }
 
 /* USER CODE BEGIN 4 */
-HAL_GPIO_EXTI_Callback(uint16_t
-GPIO_Pin) {
-if (GPIO_Pin == GPIO_PIN_13) {
-if (mode < MAX_MODE) {
-mode += 1;
-} else {
-mode = 0;
-}
-blink(mode
-+ 1);
-}
-change_mode = true;
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
+    if (GPIO_Pin == GPIO_PIN_13) {
+        if (mode < MAX_MODE) {
+            mode += 1;
+        } else {
+            mode = 0;
+        }
+        blink(mode
+              + 1);
+    }
+    change_mode = true;
 }
 
 void blink(uint8_t num) {

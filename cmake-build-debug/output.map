@@ -122,7 +122,7 @@ __lock___sinit_recursive_mutex
 __lock___malloc_recursive_mutex
                     0x1               /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
 hadc1               0x48              CMakeFiles/anal_mic_rel.dir/Src/adc.c.obj
-MIC_SAMPLES         0x800             CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
+MIC_SAMPLES         0x400             CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
 huart2              0x40              CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
 __lock___at_quick_exit_mutex
                     0x1               /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
@@ -1971,7 +1971,7 @@ LOAD /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-no
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000194                . = ALIGN (0x4)
 
-.text           0x00000000080001c0     0x7850
+.text           0x00000000080001c0     0x7840
                 0x00000000080001c0                . = ALIGN (0x4)
  *(.text)
  .text          0x00000000080001c0       0x40 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
@@ -2050,487 +2050,485 @@ LOAD /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-no
  .text.SystemClock_Config
                 0x0000000008001374       0x94 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
                 0x0000000008001374                SystemClock_Config
- .text.main     0x0000000008001408      0x198 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
+ .text.main     0x0000000008001408      0x1c4 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
                 0x0000000008001408                main
- .text.blink    0x00000000080015a0       0x38 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
-                0x00000000080015a0                blink
+ .text.blink    0x00000000080015cc       0x38 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
+                0x00000000080015cc                blink
  .text.HAL_GPIO_EXTI_Callback
-                0x00000000080015d8       0x44 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
-                0x00000000080015d8                HAL_GPIO_EXTI_Callback
+                0x0000000008001604       0x44 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
+                0x0000000008001604                HAL_GPIO_EXTI_Callback
  .text.Error_Handler
-                0x000000000800161c        0x2 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
-                0x000000000800161c                Error_Handler
- *fill*         0x000000000800161e        0x2 
+                0x0000000008001648        0x2 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
+                0x0000000008001648                Error_Handler
+ *fill*         0x000000000800164a        0x2 
  .text.autocorelation
-                0x0000000008001620       0x6c CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
-                0x0000000008001620                autocorelation
+                0x000000000800164c       0x6c CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
+                0x000000000800164c                autocorelation
  .text.findShift
-                0x000000000800168c       0x60 CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
-                0x000000000800168c                findShift
+                0x00000000080016b8       0x60 CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
+                0x00000000080016b8                findShift
  .text.HAL_MspInit
-                0x00000000080016ec       0x38 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
-                0x00000000080016ec                HAL_MspInit
+                0x0000000008001718       0x38 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
+                0x0000000008001718                HAL_MspInit
  .text.NMI_Handler
-                0x0000000008001724        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008001724                NMI_Handler
+                0x0000000008001750        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008001750                NMI_Handler
  .text.HardFault_Handler
-                0x0000000008001726        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008001726                HardFault_Handler
+                0x0000000008001752        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008001752                HardFault_Handler
  .text.MemManage_Handler
-                0x0000000008001728        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008001728                MemManage_Handler
+                0x0000000008001754        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008001754                MemManage_Handler
  .text.BusFault_Handler
-                0x000000000800172a        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x000000000800172a                BusFault_Handler
+                0x0000000008001756        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008001756                BusFault_Handler
  .text.UsageFault_Handler
-                0x000000000800172c        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x000000000800172c                UsageFault_Handler
+                0x0000000008001758        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008001758                UsageFault_Handler
  .text.SVC_Handler
-                0x000000000800172e        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x000000000800172e                SVC_Handler
+                0x000000000800175a        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x000000000800175a                SVC_Handler
  .text.DebugMon_Handler
-                0x0000000008001730        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008001730                DebugMon_Handler
+                0x000000000800175c        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x000000000800175c                DebugMon_Handler
  .text.PendSV_Handler
-                0x0000000008001732        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008001732                PendSV_Handler
+                0x000000000800175e        0x2 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x000000000800175e                PendSV_Handler
  .text.SysTick_Handler
-                0x0000000008001734        0x8 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008001734                SysTick_Handler
- *fill*         0x000000000800173c        0x4 
+                0x0000000008001760        0x8 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008001760                SysTick_Handler
  .text.TIM1_UP_TIM10_IRQHandler
-                0x0000000008001740       0x98 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x0000000008001740                TIM1_UP_TIM10_IRQHandler
+                0x0000000008001768       0x58 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x0000000008001768                TIM1_UP_TIM10_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x00000000080017d8        0xc CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                0x00000000080017d8                EXTI15_10_IRQHandler
- .text._sbrk    0x00000000080017e4       0x3c CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
-                0x00000000080017e4                _sbrk
+                0x00000000080017c0       0x14 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+                0x00000000080017c0                EXTI15_10_IRQHandler
+ .text._sbrk    0x00000000080017d4       0x3c CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
+                0x00000000080017d4                _sbrk
  .text.MX_TIM10_Init
-                0x0000000008001820       0x30 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
-                0x0000000008001820                MX_TIM10_Init
+                0x0000000008001810       0x30 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
+                0x0000000008001810                MX_TIM10_Init
  .text.HAL_TIM_Base_MspInit
-                0x0000000008001850       0x40 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
-                0x0000000008001850                HAL_TIM_Base_MspInit
+                0x0000000008001840       0x40 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
+                0x0000000008001840                HAL_TIM_Base_MspInit
  .text.MX_USART2_UART_Init
-                0x0000000008001890       0x34 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
-                0x0000000008001890                MX_USART2_UART_Init
+                0x0000000008001880       0x34 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
+                0x0000000008001880                MX_USART2_UART_Init
  .text.HAL_UART_MspInit
-                0x00000000080018c4       0x70 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
-                0x00000000080018c4                HAL_UART_MspInit
+                0x00000000080018b4       0x70 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
+                0x00000000080018b4                HAL_UART_MspInit
  .text.SystemInit
-                0x0000000008001934       0x1c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
-                0x0000000008001934                SystemInit
+                0x0000000008001924       0x1c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+                0x0000000008001924                SystemInit
  .text.Reset_Handler
-                0x0000000008001950       0x50 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
-                0x0000000008001950                Reset_Handler
+                0x0000000008001940       0x50 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
+                0x0000000008001940                Reset_Handler
  .text.Default_Handler
-                0x00000000080019a0        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
-                0x00000000080019a0                DMA1_Stream3_IRQHandler
-                0x00000000080019a0                EXTI2_IRQHandler
-                0x00000000080019a0                SPI4_IRQHandler
-                0x00000000080019a0                TIM1_CC_IRQHandler
-                0x00000000080019a0                DMA2_Stream5_IRQHandler
-                0x00000000080019a0                DMA1_Stream5_IRQHandler
-                0x00000000080019a0                PVD_IRQHandler
-                0x00000000080019a0                SDIO_IRQHandler
-                0x00000000080019a0                TAMP_STAMP_IRQHandler
-                0x00000000080019a0                EXTI3_IRQHandler
-                0x00000000080019a0                I2C3_ER_IRQHandler
-                0x00000000080019a0                EXTI0_IRQHandler
-                0x00000000080019a0                I2C2_EV_IRQHandler
-                0x00000000080019a0                DMA1_Stream2_IRQHandler
-                0x00000000080019a0                FPU_IRQHandler
-                0x00000000080019a0                DMA2_Stream2_IRQHandler
-                0x00000000080019a0                SPI1_IRQHandler
-                0x00000000080019a0                TIM1_BRK_TIM9_IRQHandler
-                0x00000000080019a0                DMA2_Stream3_IRQHandler
-                0x00000000080019a0                USART6_IRQHandler
-                0x00000000080019a0                DMA2_Stream0_IRQHandler
-                0x00000000080019a0                TIM4_IRQHandler
-                0x00000000080019a0                I2C1_EV_IRQHandler
-                0x00000000080019a0                DMA1_Stream6_IRQHandler
-                0x00000000080019a0                DMA1_Stream1_IRQHandler
-                0x00000000080019a0                TIM3_IRQHandler
-                0x00000000080019a0                RCC_IRQHandler
-                0x00000000080019a0                Default_Handler
-                0x00000000080019a0                ADC_IRQHandler
-                0x00000000080019a0                DMA1_Stream7_IRQHandler
-                0x00000000080019a0                TIM5_IRQHandler
-                0x00000000080019a0                DMA2_Stream7_IRQHandler
-                0x00000000080019a0                I2C3_EV_IRQHandler
-                0x00000000080019a0                EXTI9_5_IRQHandler
-                0x00000000080019a0                RTC_WKUP_IRQHandler
-                0x00000000080019a0                SPI2_IRQHandler
-                0x00000000080019a0                DMA1_Stream0_IRQHandler
-                0x00000000080019a0                EXTI4_IRQHandler
-                0x00000000080019a0                WWDG_IRQHandler
-                0x00000000080019a0                TIM2_IRQHandler
-                0x00000000080019a0                OTG_FS_WKUP_IRQHandler
-                0x00000000080019a0                TIM1_TRG_COM_TIM11_IRQHandler
-                0x00000000080019a0                EXTI1_IRQHandler
-                0x00000000080019a0                USART2_IRQHandler
-                0x00000000080019a0                I2C2_ER_IRQHandler
-                0x00000000080019a0                DMA2_Stream1_IRQHandler
-                0x00000000080019a0                FLASH_IRQHandler
-                0x00000000080019a0                DMA2_Stream4_IRQHandler
-                0x00000000080019a0                USART1_IRQHandler
-                0x00000000080019a0                OTG_FS_IRQHandler
-                0x00000000080019a0                SPI3_IRQHandler
-                0x00000000080019a0                DMA1_Stream4_IRQHandler
-                0x00000000080019a0                I2C1_ER_IRQHandler
-                0x00000000080019a0                DMA2_Stream6_IRQHandler
-                0x00000000080019a0                RTC_Alarm_IRQHandler
- *fill*         0x00000000080019a2        0x2 
+                0x0000000008001990        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
+                0x0000000008001990                DMA1_Stream3_IRQHandler
+                0x0000000008001990                EXTI2_IRQHandler
+                0x0000000008001990                SPI4_IRQHandler
+                0x0000000008001990                TIM1_CC_IRQHandler
+                0x0000000008001990                DMA2_Stream5_IRQHandler
+                0x0000000008001990                DMA1_Stream5_IRQHandler
+                0x0000000008001990                PVD_IRQHandler
+                0x0000000008001990                SDIO_IRQHandler
+                0x0000000008001990                TAMP_STAMP_IRQHandler
+                0x0000000008001990                EXTI3_IRQHandler
+                0x0000000008001990                I2C3_ER_IRQHandler
+                0x0000000008001990                EXTI0_IRQHandler
+                0x0000000008001990                I2C2_EV_IRQHandler
+                0x0000000008001990                DMA1_Stream2_IRQHandler
+                0x0000000008001990                FPU_IRQHandler
+                0x0000000008001990                DMA2_Stream2_IRQHandler
+                0x0000000008001990                SPI1_IRQHandler
+                0x0000000008001990                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008001990                DMA2_Stream3_IRQHandler
+                0x0000000008001990                USART6_IRQHandler
+                0x0000000008001990                DMA2_Stream0_IRQHandler
+                0x0000000008001990                TIM4_IRQHandler
+                0x0000000008001990                I2C1_EV_IRQHandler
+                0x0000000008001990                DMA1_Stream6_IRQHandler
+                0x0000000008001990                DMA1_Stream1_IRQHandler
+                0x0000000008001990                TIM3_IRQHandler
+                0x0000000008001990                RCC_IRQHandler
+                0x0000000008001990                Default_Handler
+                0x0000000008001990                ADC_IRQHandler
+                0x0000000008001990                DMA1_Stream7_IRQHandler
+                0x0000000008001990                TIM5_IRQHandler
+                0x0000000008001990                DMA2_Stream7_IRQHandler
+                0x0000000008001990                I2C3_EV_IRQHandler
+                0x0000000008001990                EXTI9_5_IRQHandler
+                0x0000000008001990                RTC_WKUP_IRQHandler
+                0x0000000008001990                SPI2_IRQHandler
+                0x0000000008001990                DMA1_Stream0_IRQHandler
+                0x0000000008001990                EXTI4_IRQHandler
+                0x0000000008001990                WWDG_IRQHandler
+                0x0000000008001990                TIM2_IRQHandler
+                0x0000000008001990                OTG_FS_WKUP_IRQHandler
+                0x0000000008001990                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008001990                EXTI1_IRQHandler
+                0x0000000008001990                USART2_IRQHandler
+                0x0000000008001990                I2C2_ER_IRQHandler
+                0x0000000008001990                DMA2_Stream1_IRQHandler
+                0x0000000008001990                FLASH_IRQHandler
+                0x0000000008001990                DMA2_Stream4_IRQHandler
+                0x0000000008001990                USART1_IRQHandler
+                0x0000000008001990                OTG_FS_IRQHandler
+                0x0000000008001990                SPI3_IRQHandler
+                0x0000000008001990                DMA1_Stream4_IRQHandler
+                0x0000000008001990                I2C1_ER_IRQHandler
+                0x0000000008001990                DMA2_Stream6_IRQHandler
+                0x0000000008001990                RTC_Alarm_IRQHandler
+ *fill*         0x0000000008001992        0x2 
  .text.HAL_InitTick
-                0x00000000080019a4       0x4c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x00000000080019a4                HAL_InitTick
+                0x0000000008001994       0x4c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008001994                HAL_InitTick
  .text.HAL_Init
-                0x00000000080019f0       0x34 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x00000000080019f0                HAL_Init
+                0x00000000080019e0       0x34 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x00000000080019e0                HAL_Init
  .text.HAL_IncTick
-                0x0000000008001a24       0x18 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000008001a24                HAL_IncTick
+                0x0000000008001a14       0x18 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008001a14                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008001a3c        0xc CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000008001a3c                HAL_GetTick
+                0x0000000008001a2c        0xc CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008001a2c                HAL_GetTick
  .text.HAL_Delay
-                0x0000000008001a48       0x28 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000008001a48                HAL_Delay
+                0x0000000008001a38       0x28 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000008001a38                HAL_Delay
  .text.ADC_Init
-                0x0000000008001a70      0x134 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x0000000008001a60      0x134 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
  .text.HAL_ADC_Init
-                0x0000000008001ba4       0x56 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x0000000008001ba4                HAL_ADC_Init
- *fill*         0x0000000008001bfa        0x2 
+                0x0000000008001b94       0x56 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x0000000008001b94                HAL_ADC_Init
+ *fill*         0x0000000008001bea        0x2 
  .text.HAL_ADC_ConfigChannel
-                0x0000000008001bfc      0x190 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
-                0x0000000008001bfc                HAL_ADC_ConfigChannel
+                0x0000000008001bec      0x190 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+                0x0000000008001bec                HAL_ADC_ConfigChannel
  .text.HAL_ADCEx_InjectedStart
-                0x0000000008001d8c       0xf4 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
-                0x0000000008001d8c                HAL_ADCEx_InjectedStart
+                0x0000000008001d7c       0xf4 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+                0x0000000008001d7c                HAL_ADCEx_InjectedStart
  .text.HAL_ADCEx_InjectedGetValue
-                0x0000000008001e80       0x40 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
-                0x0000000008001e80                HAL_ADCEx_InjectedGetValue
+                0x0000000008001e70       0x40 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+                0x0000000008001e70                HAL_ADCEx_InjectedGetValue
  .text.HAL_ADCEx_InjectedConfigChannel
-                0x0000000008001ec0      0x20c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
-                0x0000000008001ec0                HAL_ADCEx_InjectedConfigChannel
+                0x0000000008001eb0      0x20c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+                0x0000000008001eb0                HAL_ADCEx_InjectedConfigChannel
  .text.HAL_NVIC_SetPriorityGrouping
-                0x00000000080020cc       0x24 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x00000000080020cc                HAL_NVIC_SetPriorityGrouping
+                0x00000000080020bc       0x24 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000000080020bc                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x00000000080020f0       0x68 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x00000000080020f0                HAL_NVIC_SetPriority
+                0x00000000080020e0       0x68 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x00000000080020e0                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0000000008002158       0x1c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0000000008002158                HAL_NVIC_EnableIRQ
+                0x0000000008002148       0x1c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0000000008002148                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0000000008002174       0x2c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
-                0x0000000008002174                HAL_SYSTICK_Config
+                0x0000000008002164       0x2c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+                0x0000000008002164                HAL_SYSTICK_Config
  .text.HAL_GPIO_Init
-                0x00000000080021a0      0x1a8 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x00000000080021a0                HAL_GPIO_Init
+                0x0000000008002190      0x1a8 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x0000000008002190                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0000000008002348        0xc CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x0000000008002348                HAL_GPIO_WritePin
+                0x0000000008002338        0xc CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x0000000008002338                HAL_GPIO_WritePin
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x0000000008002354       0x1c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
-                0x0000000008002354                HAL_GPIO_EXTI_IRQHandler
+                0x0000000008002344       0x1c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+                0x0000000008002344                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_RCC_OscConfig
-                0x0000000008002370      0x3ec CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008002370                HAL_RCC_OscConfig
+                0x0000000008002360      0x3ec CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008002360                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x000000000800275c       0xa0 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x000000000800275c                HAL_RCC_GetSysClockFreq
+                0x000000000800274c       0xa0 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x000000000800274c                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x00000000080027fc      0x160 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x00000000080027fc                HAL_RCC_ClockConfig
+                0x00000000080027ec      0x160 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x00000000080027ec                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x000000000800295c        0xc CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x000000000800295c                HAL_RCC_GetHCLKFreq
+                0x000000000800294c        0xc CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x000000000800294c                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008002968       0x20 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008002968                HAL_RCC_GetPCLK1Freq
+                0x0000000008002958       0x20 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008002958                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x0000000008002988       0x20 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
-                0x0000000008002988                HAL_RCC_GetPCLK2Freq
+                0x0000000008002978       0x20 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+                0x0000000008002978                HAL_RCC_GetPCLK2Freq
  .text.HAL_TIM_Base_Start_IT
-                0x00000000080029a8       0x22 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080029a8                HAL_TIM_Base_Start_IT
+                0x0000000008002998       0x22 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008002998                HAL_TIM_Base_Start_IT
  .text.HAL_TIM_Base_Stop_IT
-                0x00000000080029ca       0x2c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080029ca                HAL_TIM_Base_Stop_IT
+                0x00000000080029ba       0x2c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080029ba                HAL_TIM_Base_Stop_IT
  .text.HAL_TIM_PeriodElapsedCallback
-                0x00000000080029f6        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080029f6                HAL_TIM_PeriodElapsedCallback
+                0x00000000080029e6        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080029e6                HAL_TIM_PeriodElapsedCallback
  .text.HAL_TIM_OC_DelayElapsedCallback
-                0x00000000080029f8        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080029f8                HAL_TIM_OC_DelayElapsedCallback
+                0x00000000080029e8        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080029e8                HAL_TIM_OC_DelayElapsedCallback
  .text.HAL_TIM_IC_CaptureCallback
-                0x00000000080029fa        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080029fa                HAL_TIM_IC_CaptureCallback
+                0x00000000080029ea        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080029ea                HAL_TIM_IC_CaptureCallback
  .text.HAL_TIM_PWM_PulseFinishedCallback
-                0x00000000080029fc        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080029fc                HAL_TIM_PWM_PulseFinishedCallback
+                0x00000000080029ec        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080029ec                HAL_TIM_PWM_PulseFinishedCallback
  .text.HAL_TIM_TriggerCallback
-                0x00000000080029fe        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x00000000080029fe                HAL_TIM_TriggerCallback
+                0x00000000080029ee        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080029ee                HAL_TIM_TriggerCallback
  .text.HAL_TIM_IRQHandler
-                0x0000000008002a00      0x17a CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008002a00                HAL_TIM_IRQHandler
- *fill*         0x0000000008002b7a        0x2 
+                0x00000000080029f0      0x17a CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x00000000080029f0                HAL_TIM_IRQHandler
+ *fill*         0x0000000008002b6a        0x2 
  .text.TIM_Base_SetConfig
-                0x0000000008002b7c       0x9c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008002b7c                TIM_Base_SetConfig
+                0x0000000008002b6c       0x9c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008002b6c                TIM_Base_SetConfig
  .text.HAL_TIM_Base_Init
-                0x0000000008002c18       0x34 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
-                0x0000000008002c18                HAL_TIM_Base_Init
+                0x0000000008002c08       0x34 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+                0x0000000008002c08                HAL_TIM_Base_Init
  .text.HAL_TIMEx_CommutCallback
-                0x0000000008002c4c        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0000000008002c4c                HAL_TIMEx_CommutCallback
+                0x0000000008002c3c        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x0000000008002c3c                HAL_TIMEx_CommutCallback
  .text.HAL_TIMEx_BreakCallback
-                0x0000000008002c4e        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
-                0x0000000008002c4e                HAL_TIMEx_BreakCallback
+                0x0000000008002c3e        0x2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+                0x0000000008002c3e                HAL_TIMEx_BreakCallback
  .text.UART_SetConfig
-                0x0000000008002c50      0x1e8 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002c40      0x1e8 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.UART_WaitOnFlagUntilTimeout
-                0x0000000008002e38       0x68 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002e28       0x68 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x0000000008002ea0       0x5e CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008002ea0                HAL_UART_Init
+                0x0000000008002e90       0x5e CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002e90                HAL_UART_Init
  .text.HAL_UART_Transmit
-                0x0000000008002efe       0xe2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
-                0x0000000008002efe                HAL_UART_Transmit
- .text.__errno  0x0000000008002fe0        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-errno.o)
-                0x0000000008002fe0                __errno
+                0x0000000008002eee       0xe2 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+                0x0000000008002eee                HAL_UART_Transmit
+ .text.__errno  0x0000000008002fd0        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-errno.o)
+                0x0000000008002fd0                __errno
  .text.__libc_init_array
-                0x0000000008002fec       0x48 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-init.o)
-                0x0000000008002fec                __libc_init_array
- .text.memset   0x0000000008003034       0xa0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-memset.o)
-                0x0000000008003034                memset
- .text.sprintf  0x00000000080030d4       0x44 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-sprintf.o)
-                0x00000000080030d4                sprintf
+                0x0000000008002fdc       0x48 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-init.o)
+                0x0000000008002fdc                __libc_init_array
+ .text.memset   0x0000000008003024       0xa0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-memset.o)
+                0x0000000008003024                memset
+ .text.sprintf  0x00000000080030c4       0x44 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-sprintf.o)
+                0x00000000080030c4                sprintf
  .text._svfprintf_r
-                0x0000000008003118     0x1b34 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
-                0x0000000008003118                _svfprintf_r
+                0x0000000008003108     0x1b34 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
+                0x0000000008003108                _svfprintf_r
  .text.startup.register_fini
-                0x0000000008004c4c       0x14 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x0000000008004c60        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-atexit.o)
-                0x0000000008004c60                atexit
- .text.quorem   0x0000000008004c6c      0x11c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-dtoa.o)
- .text._dtoa_r  0x0000000008004d88      0xeec /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-dtoa.o)
-                0x0000000008004d88                _dtoa_r
+                0x0000000008004c3c       0x14 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x0000000008004c50        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-atexit.o)
+                0x0000000008004c50                atexit
+ .text.quorem   0x0000000008004c5c      0x11c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-dtoa.o)
+ .text._dtoa_r  0x0000000008004d78      0xeec /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-dtoa.o)
+                0x0000000008004d78                _dtoa_r
  .text.__libc_fini_array
-                0x0000000008005c74       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-fini.o)
-                0x0000000008005c74                __libc_fini_array
+                0x0000000008005c64       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-fini.o)
+                0x0000000008005c64                __libc_fini_array
  .text._malloc_trim_r
-                0x0000000008005ca0       0xa0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-freer.o)
-                0x0000000008005ca0                _malloc_trim_r
- .text._free_r  0x0000000008005d40      0x208 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-freer.o)
-                0x0000000008005d40                _free_r
+                0x0000000008005c90       0xa0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-freer.o)
+                0x0000000008005c90                _malloc_trim_r
+ .text._free_r  0x0000000008005d30      0x208 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-freer.o)
+                0x0000000008005d30                _free_r
  .text._localeconv_r
-                0x0000000008005f48        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-localeconv.o)
-                0x0000000008005f48                _localeconv_r
+                0x0000000008005f38        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-localeconv.o)
+                0x0000000008005f38                _localeconv_r
  .text.__retarget_lock_acquire_recursive
-                0x0000000008005f50        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
-                0x0000000008005f50                __retarget_lock_acquire_recursive
+                0x0000000008005f40        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
+                0x0000000008005f40                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008005f54        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
-                0x0000000008005f54                __retarget_lock_release_recursive
+                0x0000000008005f44        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
+                0x0000000008005f44                __retarget_lock_release_recursive
  .text._malloc_r
-                0x0000000008005f58      0x574 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mallocr.o)
-                0x0000000008005f58                _malloc_r
+                0x0000000008005f48      0x574 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mallocr.o)
+                0x0000000008005f48                _malloc_r
  .text.__malloc_lock
-                0x00000000080064cc        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mlock.o)
-                0x00000000080064cc                __malloc_lock
+                0x00000000080064bc        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mlock.o)
+                0x00000000080064bc                __malloc_lock
  .text.__malloc_unlock
-                0x00000000080064d8        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mlock.o)
-                0x00000000080064d8                __malloc_unlock
- .text._Balloc  0x00000000080064e4       0x4c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x00000000080064e4                _Balloc
- .text._Bfree   0x0000000008006530       0x14 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008006530                _Bfree
+                0x00000000080064c8        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mlock.o)
+                0x00000000080064c8                __malloc_unlock
+ .text._Balloc  0x00000000080064d4       0x4c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x00000000080064d4                _Balloc
+ .text._Bfree   0x0000000008006520       0x14 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008006520                _Bfree
  .text.__multadd
-                0x0000000008006544       0x8c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008006544                __multadd
+                0x0000000008006534       0x8c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008006534                __multadd
  .text.__hi0bits
-                0x00000000080065d0       0x40 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x00000000080065d0                __hi0bits
+                0x00000000080065c0       0x40 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x00000000080065c0                __hi0bits
  .text.__lo0bits
-                0x0000000008006610       0x60 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008006610                __lo0bits
- .text.__i2b    0x0000000008006670       0x14 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008006670                __i2b
+                0x0000000008006600       0x60 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008006600                __lo0bits
+ .text.__i2b    0x0000000008006660       0x14 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008006660                __i2b
  .text.__multiply
-                0x0000000008006684      0x144 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008006684                __multiply
+                0x0000000008006674      0x144 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008006674                __multiply
  .text.__pow5mult
-                0x00000000080067c8       0xa0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x00000000080067c8                __pow5mult
+                0x00000000080067b8       0xa0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x00000000080067b8                __pow5mult
  .text.__lshift
-                0x0000000008006868       0xd4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008006868                __lshift
- .text.__mcmp   0x000000000800693c       0x3c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x000000000800693c                __mcmp
- .text.__mdiff  0x0000000008006978      0x138 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008006978                __mdiff
- .text.__d2b    0x0000000008006ab0       0xbc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008006ab0                __d2b
- .text.frexp    0x0000000008006b6c       0x70 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-s_frexp.o)
-                0x0000000008006b6c                frexp
- .text._sbrk_r  0x0000000008006bdc       0x24 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-sbrkr.o)
-                0x0000000008006bdc                _sbrk_r
- .text.strncpy  0x0000000008006c00       0x68 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-strncpy.o)
-                0x0000000008006c00                strncpy
+                0x0000000008006858       0xd4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008006858                __lshift
+ .text.__mcmp   0x000000000800692c       0x3c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x000000000800692c                __mcmp
+ .text.__mdiff  0x0000000008006968      0x138 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008006968                __mdiff
+ .text.__d2b    0x0000000008006aa0       0xbc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008006aa0                __d2b
+ .text.frexp    0x0000000008006b5c       0x70 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-s_frexp.o)
+                0x0000000008006b5c                frexp
+ .text._sbrk_r  0x0000000008006bcc       0x24 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-sbrkr.o)
+                0x0000000008006bcc                _sbrk_r
+ .text.strncpy  0x0000000008006bf0       0x68 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-strncpy.o)
+                0x0000000008006bf0                strncpy
  .text.__ssprint_r
-                0x0000000008006c68       0xf8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfiprintf.o)
-                0x0000000008006c68                __ssprint_r
+                0x0000000008006c58       0xf8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfiprintf.o)
+                0x0000000008006c58                __ssprint_r
  .text.__register_exitproc
-                0x0000000008006d60       0x8c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__atexit.o)
-                0x0000000008006d60                __register_exitproc
+                0x0000000008006d50       0x8c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__atexit.o)
+                0x0000000008006d50                __register_exitproc
  .text._calloc_r
-                0x0000000008006dec       0x60 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-callocr.o)
-                0x0000000008006dec                _calloc_r
+                0x0000000008006ddc       0x60 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-callocr.o)
+                0x0000000008006ddc                _calloc_r
  .text.__ascii_mbtowc
-                0x0000000008006e4c       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mbtowc_r.o)
-                0x0000000008006e4c                __ascii_mbtowc
- .text.memmove  0x0000000008006e78       0xd8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-memmove.o)
-                0x0000000008006e78                memmove
+                0x0000000008006e3c       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mbtowc_r.o)
+                0x0000000008006e3c                __ascii_mbtowc
+ .text.memmove  0x0000000008006e68       0xd8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-memmove.o)
+                0x0000000008006e68                memmove
  .text._realloc_r
-                0x0000000008006f50      0x3e0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-reallocr.o)
-                0x0000000008006f50                _realloc_r
+                0x0000000008006f40      0x3e0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-reallocr.o)
+                0x0000000008006f40                _realloc_r
  .text.__ascii_wctomb
-                0x0000000008007330       0x1c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-wctomb_r.o)
-                0x0000000008007330                __ascii_wctomb
- .text.asin     0x000000000800734c       0xb0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-w_asin.o)
-                0x000000000800734c                asin
- *fill*         0x00000000080073fc        0x4 
+                0x0000000008007320       0x1c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-wctomb_r.o)
+                0x0000000008007320                __ascii_wctomb
+ .text.asin     0x000000000800733c       0xb0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-w_asin.o)
+                0x000000000800733c                asin
+ *fill*         0x00000000080073ec        0x4 
  .text.__ieee754_asin
-                0x0000000008007400      0x474 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-e_asin.o)
-                0x0000000008007400                __ieee754_asin
+                0x00000000080073f0      0x474 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-e_asin.o)
+                0x00000000080073f0                __ieee754_asin
  .text.__ieee754_sqrt
-                0x0000000008007874      0x16c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-e_sqrt.o)
-                0x0000000008007874                __ieee754_sqrt
- .text.fabs     0x00000000080079e0        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-s_fabs.o)
-                0x00000000080079e0                fabs
- .text.matherr  0x00000000080079e8        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-s_matherr.o)
-                0x00000000080079e8                matherr
- .text.nan      0x00000000080079ec        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-s_nan.o)
-                0x00000000080079ec                nan
+                0x0000000008007864      0x16c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-e_sqrt.o)
+                0x0000000008007864                __ieee754_sqrt
+ .text.fabs     0x00000000080079d0        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-s_fabs.o)
+                0x00000000080079d0                fabs
+ .text.matherr  0x00000000080079d8        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-s_matherr.o)
+                0x00000000080079d8                matherr
+ .text.nan      0x00000000080079dc        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-s_nan.o)
+                0x00000000080079dc                nan
  *(.glue_7)
- .glue_7        0x00000000080079f8        0x0 linker stubs
+ .glue_7        0x00000000080079e8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x00000000080079f8        0x0 linker stubs
+ .glue_7t       0x00000000080079e8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x00000000080079f8        0x0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
+ .eh_frame      0x00000000080079e8        0x0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
  *(.init)
- .init          0x00000000080079f8        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crti.o
-                0x00000000080079f8                _init
- .init          0x00000000080079fc        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtn.o
+ .init          0x00000000080079e8        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crti.o
+                0x00000000080079e8                _init
+ .init          0x00000000080079ec        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtn.o
  *(.fini)
- .fini          0x0000000008007a04        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crti.o
-                0x0000000008007a04                _fini
- .fini          0x0000000008007a08        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtn.o
-                0x0000000008007a10                . = ALIGN (0x4)
-                0x0000000008007a10                _etext = .
+ .fini          0x00000000080079f4        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crti.o
+                0x00000000080079f4                _fini
+ .fini          0x00000000080079f8        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtn.o
+                0x0000000008007a00                . = ALIGN (0x4)
+                0x0000000008007a00                _etext = .
 
-.vfp11_veneer   0x0000000008007a10        0x0
- .vfp11_veneer  0x0000000008007a10        0x0 linker stubs
+.vfp11_veneer   0x0000000008007a00        0x0
+ .vfp11_veneer  0x0000000008007a00        0x0 linker stubs
 
-.v4_bx          0x0000000008007a10        0x0
- .v4_bx         0x0000000008007a10        0x0 linker stubs
+.v4_bx          0x0000000008007a00        0x0
+ .v4_bx         0x0000000008007a00        0x0 linker stubs
 
-.iplt           0x0000000008007a10        0x0
- .iplt          0x0000000008007a10        0x0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+.iplt           0x0000000008007a00        0x0
+ .iplt          0x0000000008007a00        0x0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.rodata         0x0000000008007a10      0x2c8
-                0x0000000008007a10                . = ALIGN (0x4)
+.rodata         0x0000000008007a00      0x2c0
+                0x0000000008007a00                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
  .rodata.main.str1.4
-                0x0000000008007a10       0x1f CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
- *fill*         0x0000000008007a2f        0x1 
+                0x0000000008007a00       0x18 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
  .rodata.AHBPrescTable
-                0x0000000008007a30       0x10 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
-                0x0000000008007a30                AHBPrescTable
+                0x0000000008007a18       0x10 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+                0x0000000008007a18                AHBPrescTable
  .rodata.APBPrescTable
-                0x0000000008007a40        0x8 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
-                0x0000000008007a40                APBPrescTable
+                0x0000000008007a28        0x8 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+                0x0000000008007a28                APBPrescTable
  .rodata._global_impure_ptr
-                0x0000000008007a48        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-impure.o)
-                0x0000000008007a48                _global_impure_ptr
+                0x0000000008007a30        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-impure.o)
+                0x0000000008007a30                _global_impure_ptr
  .rodata._svfprintf_r.str1.4
-                0x0000000008007a4c       0x42 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
- *fill*         0x0000000008007a8e        0x2 
+                0x0000000008007a34       0x42 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
+ *fill*         0x0000000008007a76        0x2 
  .rodata.blanks.8708
-                0x0000000008007a90       0x10 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
+                0x0000000008007a78       0x10 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
  .rodata.zeroes.8709
-                0x0000000008007aa0       0x10 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
+                0x0000000008007a88       0x10 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
  .rodata._dtoa_r.str1.4
-                0x0000000008007ab0        0xd /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-dtoa.o)
+                0x0000000008007a98        0xd /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-dtoa.o)
                                          0x12 (size before relaxing)
- *fill*         0x0000000008007abd        0x3 
+ *fill*         0x0000000008007aa5        0x3 
  .rodata.__mprec_bigtens
-                0x0000000008007ac0       0x28 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008007ac0                __mprec_bigtens
+                0x0000000008007aa8       0x28 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008007aa8                __mprec_bigtens
  .rodata.__mprec_tens
-                0x0000000008007ae8       0xc8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
-                0x0000000008007ae8                __mprec_tens
+                0x0000000008007ad0       0xc8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008007ad0                __mprec_tens
  .rodata.p05.7478
-                0x0000000008007bb0        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+                0x0000000008007b98        0xc /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
  .rodata._setlocale_r.str1.4
-                0x0000000008007bbc        0xa /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-locale.o)
+                0x0000000008007ba4        0xa /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-locale.o)
                                           0xd (size before relaxing)
- *fill*         0x0000000008007bc6        0x2 
+ *fill*         0x0000000008007bae        0x2 
  .rodata.str1.4
-                0x0000000008007bc8        0x2 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-locale.o)
- *fill*         0x0000000008007bca        0x2 
+                0x0000000008007bb0        0x2 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-locale.o)
+ *fill*         0x0000000008007bb2        0x2 
  .rodata._ctype_
-                0x0000000008007bcc      0x101 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-ctype_.o)
-                0x0000000008007bcc                _ctype_
- *fill*         0x0000000008007ccd        0x3 
+                0x0000000008007bb4      0x101 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-ctype_.o)
+                0x0000000008007bb4                _ctype_
+ *fill*         0x0000000008007cb5        0x3 
  .rodata.asin.str1.4
-                0x0000000008007cd0        0x5 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-w_asin.o)
+                0x0000000008007cb8        0x5 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libm.a(lib_a-w_asin.o)
                                           0x9 (size before relaxing)
-                0x0000000008007cd8                . = ALIGN (0x4)
- *fill*         0x0000000008007cd5        0x3 
+                0x0000000008007cc0                . = ALIGN (0x4)
+ *fill*         0x0000000008007cbd        0x3 
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008007cd8        0x8
-                0x0000000008007cd8                __exidx_start = .
+.ARM            0x0000000008007cc0        0x8
+                0x0000000008007cc0                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0000000008007cd8        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
-                0x0000000008007ce0                __exidx_end = .
+ .ARM.exidx     0x0000000008007cc0        0x8 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
+                0x0000000008007cc8                __exidx_end = .
 
-.rel.dyn        0x0000000008007ce0        0x0
- .rel.iplt      0x0000000008007ce0        0x0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+.rel.dyn        0x0000000008007cc8        0x0
+ .rel.iplt      0x0000000008007cc8        0x0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.preinit_array  0x0000000008007ce0        0x0
-                0x0000000008007ce0                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008007cc8        0x0
+                0x0000000008007cc8                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008007ce0                PROVIDE (__preinit_array_end = .)
+                0x0000000008007cc8                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008007ce0        0xc
-                0x0000000008007ce0                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008007cc8        0xc
+                0x0000000008007cc8                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x0000000008007ce0        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__call_atexit.o)
+                0x0000000008007cc8        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x0000000008007ce4        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtfastmath.o
- .init_array    0x0000000008007ce8        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
-                0x0000000008007cec                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008007ccc        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtfastmath.o
+ .init_array    0x0000000008007cd0        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
+                0x0000000008007cd4                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008007cec        0x4
-                0x0000000008007cec                PROVIDE (__fini_array_start = .)
+.fini_array     0x0000000008007cd4        0x4
+                0x0000000008007cd4                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008007cec        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
-                0x0000000008007cf0                PROVIDE (__fini_array_end = .)
-                0x0000000008007cf0                _sidata = LOADADDR (.data)
+ .fini_array    0x0000000008007cd4        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtbegin.o
+                0x0000000008007cd8                PROVIDE (__fini_array_end = .)
+                0x0000000008007cd8                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000      0x9c4 load address 0x0000000008007cf0
+.data           0x0000000020000000      0x9c4 load address 0x0000000008007cd8
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -2576,12 +2574,12 @@ LOAD /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-no
                 0x00000000200009c4                . = ALIGN (0x4)
  *fill*         0x00000000200009c1        0x3 
                 0x00000000200009c4                _edata = .
-                0x00000000080086b4                _siccmram = LOADADDR (.ccmram)
+                0x000000000800869c                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x00000000200009c4        0x0 load address 0x00000000080086b4
+.igot.plt       0x00000000200009c4        0x0 load address 0x000000000800869c
  .igot.plt      0x00000000200009c4        0x0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtfastmath.o
 
-.ccmram         0x0000000010000000        0x0 load address 0x00000000080086b4
+.ccmram         0x0000000010000000        0x0 load address 0x000000000800869c
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
@@ -2590,7 +2588,7 @@ LOAD /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-no
                 0x0000000010000000                _eccmram = .
                 0x0000000010000000                . = ALIGN (0x4)
 
-.bss            0x00000000200009c4      0x978
+.bss            0x00000000200009c4      0x578
                 0x00000000200009c4                _sbss = .
                 0x00000000200009c4                __bss_start__ = _sbss
  *(.bss)
@@ -2629,41 +2627,41 @@ LOAD /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-no
  *(COMMON)
  COMMON         0x0000000020000a28       0x48 CMakeFiles/anal_mic_rel.dir/Src/adc.c.obj
                 0x0000000020000a28                hadc1
- COMMON         0x0000000020000a70      0x820 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
+ COMMON         0x0000000020000a70      0x420 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
                 0x0000000020000a70                MIC_STR
                 0x0000000020000a90                MIC_SAMPLES
- COMMON         0x0000000020001290       0x40 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
-                0x0000000020001290                htim10
- COMMON         0x00000000200012d0       0x40 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
-                0x00000000200012d0                huart2
- COMMON         0x0000000020001310        0x4 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
-                0x0000000020001310                uwTick
- COMMON         0x0000000020001314       0x21 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
-                0x0000000020001314                __lock___atexit_recursive_mutex
-                0x0000000020001318                __lock___arc4random_mutex
-                0x000000002000131c                __lock___env_recursive_mutex
-                0x0000000020001320                __lock___sinit_recursive_mutex
-                0x0000000020001324                __lock___malloc_recursive_mutex
-                0x0000000020001328                __lock___at_quick_exit_mutex
-                0x000000002000132c                __lock___dd_hash_mutex
-                0x0000000020001330                __lock___tz_mutex
-                0x0000000020001334                __lock___sfp_recursive_mutex
- *fill*         0x0000000020001335        0x3 
- COMMON         0x0000000020001338        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-reent.o)
-                0x0000000020001338                errno
-                0x000000002000133c                . = ALIGN (0x4)
-                0x000000002000133c                _ebss = .
-                0x000000002000133c                __bss_end__ = _ebss
+ COMMON         0x0000000020000e90       0x40 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
+                0x0000000020000e90                htim10
+ COMMON         0x0000000020000ed0       0x40 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
+                0x0000000020000ed0                huart2
+ COMMON         0x0000000020000f10        0x4 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+                0x0000000020000f10                uwTick
+ COMMON         0x0000000020000f14       0x21 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
+                0x0000000020000f14                __lock___atexit_recursive_mutex
+                0x0000000020000f18                __lock___arc4random_mutex
+                0x0000000020000f1c                __lock___env_recursive_mutex
+                0x0000000020000f20                __lock___sinit_recursive_mutex
+                0x0000000020000f24                __lock___malloc_recursive_mutex
+                0x0000000020000f28                __lock___at_quick_exit_mutex
+                0x0000000020000f2c                __lock___dd_hash_mutex
+                0x0000000020000f30                __lock___tz_mutex
+                0x0000000020000f34                __lock___sfp_recursive_mutex
+ *fill*         0x0000000020000f35        0x3 
+ COMMON         0x0000000020000f38        0x4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-reent.o)
+                0x0000000020000f38                errno
+                0x0000000020000f3c                . = ALIGN (0x4)
+                0x0000000020000f3c                _ebss = .
+                0x0000000020000f3c                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x000000002000133c      0x200
-                0x000000002000133c                . = ALIGN (0x4)
-                0x000000002000133c                PROVIDE (end = .)
+                0x0000000020000f3c      0x200
+                0x0000000020000f3c                . = ALIGN (0x4)
+                0x0000000020000f3c                PROVIDE (end = .)
                 [!provide]                        PROVIDE (_end = .)
-                0x000000002000133c                . = (. + _Min_Heap_Size)
-                0x000000002000153c                . = (. + _Min_Stack_Size)
- *fill*         0x000000002000133c      0x200 
-                0x000000002000153c                . = ALIGN (0x4)
+                0x0000000020000f3c                . = (. + _Min_Heap_Size)
+                0x000000002000113c                . = (. + _Min_Stack_Size)
+ *fill*         0x0000000020000f3c      0x200 
+                0x000000002000113c                . = ALIGN (0x4)
 
 /DISCARD/
  libc.a(*)
@@ -2805,106 +2803,106 @@ LOAD /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-no
                 0x0000000000000b29       0x1e /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtn.o
 OUTPUT(anal_mic_rel elf32-littlearm)
 
-.debug_frame    0x0000000000000000     0x2d7c
+.debug_frame    0x0000000000000000     0x2d78
  .debug_frame   0x0000000000000000       0x20 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/crtfastmath.o
  .debug_frame   0x0000000000000020       0x6c CMakeFiles/anal_mic_rel.dir/Src/adc.c.obj
  .debug_frame   0x000000000000008c       0x30 CMakeFiles/anal_mic_rel.dir/Src/gpio.c.obj
  .debug_frame   0x00000000000000bc       0x8c CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
  .debug_frame   0x0000000000000148       0x58 CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
  .debug_frame   0x00000000000001a0       0x28 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_frame   0x00000000000001c8       0xe0 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
- .debug_frame   0x00000000000002a8       0x28 CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
- .debug_frame   0x00000000000002d0       0x5c CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
- .debug_frame   0x000000000000032c       0x60 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
- .debug_frame   0x000000000000038c       0x30 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
- .debug_frame   0x00000000000003bc      0x1ec CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_frame   0x00000000000005a8      0x268 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_frame   0x0000000000000810      0x18c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_frame   0x000000000000099c      0x15c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_frame   0x0000000000000af8       0xd8 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_frame   0x0000000000000bd0      0x174 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_frame   0x0000000000000d44      0xa90 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_frame   0x00000000000017d4      0x3b4 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_frame   0x0000000000001b88      0x4ec CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
- .debug_frame   0x0000000000002074       0xac /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_addsubdf3.o)
- .debug_frame   0x0000000000002120       0x24 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_truncdfsf2.o)
- .debug_frame   0x0000000000002144       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x0000000000002170       0x34 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00000000000021a4       0x20 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-errno.o)
- .debug_frame   0x00000000000021c4       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-init.o)
- .debug_frame   0x00000000000021f0       0x38 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-memset.o)
- .debug_frame   0x0000000000002228       0x7c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-sprintf.o)
- .debug_frame   0x00000000000022a4       0x68 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
- .debug_frame   0x000000000000230c       0x68 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x0000000000002374       0x20 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-atexit.o)
- .debug_frame   0x0000000000002394       0xc4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-dtoa.o)
- .debug_frame   0x0000000000002458       0x34 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-fini.o)
- .debug_frame   0x000000000000248c       0x8c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-freer.o)
- .debug_frame   0x0000000000002518       0x40 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-localeconv.o)
- .debug_frame   0x0000000000002558       0xb0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
- .debug_frame   0x0000000000002608       0x4c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mallocr.o)
- .debug_frame   0x0000000000002654       0x30 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mlock.o)
- .debug_frame   0x0000000000002684      0x264 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
- .debug_frame   0x00000000000028e8       0x30 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-s_frexp.o)
- .debug_frame   0x0000000000002918       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-sbrkr.o)
- .debug_frame   0x0000000000002944       0x38 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-strncpy.o)
- .debug_frame   0x000000000000297c       0x88 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfiprintf.o)
- .debug_frame   0x0000000000002a04       0x34 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__atexit.o)
- .debug_frame   0x0000000000002a38       0x28 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-callocr.o)
- .debug_frame   0x0000000000002a60       0x54 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-locale.o)
- .debug_frame   0x0000000000002ab4       0x4c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mbtowc_r.o)
- .debug_frame   0x0000000000002b00       0x40 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-memmove.o)
- .debug_frame   0x0000000000002b40       0x48 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-reallocr.o)
- .debug_frame   0x0000000000002b88       0x60 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-reent.o)
- .debug_frame   0x0000000000002be8       0x3c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-wctomb_r.o)
- .debug_frame   0x0000000000002c24       0x50 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_muldivdf3.o)
- .debug_frame   0x0000000000002c74       0xc4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_cmpdf2.o)
- .debug_frame   0x0000000000002d38       0x20 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_unorddf2.o)
- .debug_frame   0x0000000000002d58       0x24 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixdfsi.o)
+ .debug_frame   0x00000000000001c8       0xdc CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+ .debug_frame   0x00000000000002a4       0x28 CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
+ .debug_frame   0x00000000000002cc       0x5c CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
+ .debug_frame   0x0000000000000328       0x60 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
+ .debug_frame   0x0000000000000388       0x30 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+ .debug_frame   0x00000000000003b8      0x1ec CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_frame   0x00000000000005a4      0x268 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_frame   0x000000000000080c      0x18c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_frame   0x0000000000000998      0x15c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_frame   0x0000000000000af4       0xd8 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_frame   0x0000000000000bcc      0x174 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_frame   0x0000000000000d40      0xa90 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_frame   0x00000000000017d0      0x3b4 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_frame   0x0000000000001b84      0x4ec CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_frame   0x0000000000002070       0xac /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_addsubdf3.o)
+ .debug_frame   0x000000000000211c       0x24 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_truncdfsf2.o)
+ .debug_frame   0x0000000000002140       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x000000000000216c       0x34 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00000000000021a0       0x20 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-errno.o)
+ .debug_frame   0x00000000000021c0       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-init.o)
+ .debug_frame   0x00000000000021ec       0x38 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-memset.o)
+ .debug_frame   0x0000000000002224       0x7c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-sprintf.o)
+ .debug_frame   0x00000000000022a0       0x68 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfprintf.o)
+ .debug_frame   0x0000000000002308       0x68 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000002370       0x20 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000002390       0xc4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-dtoa.o)
+ .debug_frame   0x0000000000002454       0x34 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-fini.o)
+ .debug_frame   0x0000000000002488       0x8c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-freer.o)
+ .debug_frame   0x0000000000002514       0x40 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-localeconv.o)
+ .debug_frame   0x0000000000002554       0xb0 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-lock.o)
+ .debug_frame   0x0000000000002604       0x4c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mallocr.o)
+ .debug_frame   0x0000000000002650       0x30 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000002680      0x264 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mprec.o)
+ .debug_frame   0x00000000000028e4       0x30 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-s_frexp.o)
+ .debug_frame   0x0000000000002914       0x2c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000002940       0x38 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-strncpy.o)
+ .debug_frame   0x0000000000002978       0x88 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-svfiprintf.o)
+ .debug_frame   0x0000000000002a00       0x34 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000002a34       0x28 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-callocr.o)
+ .debug_frame   0x0000000000002a5c       0x54 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-locale.o)
+ .debug_frame   0x0000000000002ab0       0x4c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-mbtowc_r.o)
+ .debug_frame   0x0000000000002afc       0x40 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-memmove.o)
+ .debug_frame   0x0000000000002b3c       0x48 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-reallocr.o)
+ .debug_frame   0x0000000000002b84       0x60 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-reent.o)
+ .debug_frame   0x0000000000002be4       0x3c /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/softfp/libg.a(lib_a-wctomb_r.o)
+ .debug_frame   0x0000000000002c20       0x50 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_muldivdf3.o)
+ .debug_frame   0x0000000000002c70       0xc4 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_cmpdf2.o)
+ .debug_frame   0x0000000000002d34       0x20 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_unorddf2.o)
+ .debug_frame   0x0000000000002d54       0x24 /Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/softfp/libgcc.a(_arm_fixdfsi.o)
 
-.debug_info     0x0000000000000000    0x11ae9
+.debug_info     0x0000000000000000    0x11af9
  .debug_info    0x0000000000000000      0xc94 CMakeFiles/anal_mic_rel.dir/Src/adc.c.obj
  .debug_info    0x0000000000000c94      0x74f CMakeFiles/anal_mic_rel.dir/Src/gpio.c.obj
- .debug_info    0x00000000000013e3     0x1e19 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
- .debug_info    0x00000000000031fc      0x1b7 CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
- .debug_info    0x00000000000033b3      0x3bc CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_info    0x000000000000376f      0xae3 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
- .debug_info    0x0000000000004252      0x9d4 CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
- .debug_info    0x0000000000004c26      0xb80 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
- .debug_info    0x00000000000057a6      0xa9b CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
- .debug_info    0x0000000000006241      0x587 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
- .debug_info    0x00000000000067c8       0x22 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
- .debug_info    0x00000000000067ea      0xa04 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_info    0x00000000000071ee      0xf77 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_info    0x0000000000008165      0xd6a CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_info    0x0000000000008ecf     0x10be CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_info    0x0000000000009f8d      0x893 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_info    0x000000000000a820      0xb84 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_info    0x000000000000b3a4     0x36b1 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_info    0x000000000000ea55     0x16ef CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_info    0x0000000000010144     0x19a5 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_info    0x00000000000013e3     0x1e14 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
+ .debug_info    0x00000000000031f7      0x1b7 CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
+ .debug_info    0x00000000000033ae      0x3bc CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_info    0x000000000000376a      0xaf8 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+ .debug_info    0x0000000000004262      0x9d4 CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
+ .debug_info    0x0000000000004c36      0xb80 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
+ .debug_info    0x00000000000057b6      0xa9b CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
+ .debug_info    0x0000000000006251      0x587 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+ .debug_info    0x00000000000067d8       0x22 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
+ .debug_info    0x00000000000067fa      0xa04 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_info    0x00000000000071fe      0xf77 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_info    0x0000000000008175      0xd6a CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_info    0x0000000000008edf     0x10be CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_info    0x0000000000009f9d      0x893 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_info    0x000000000000a830      0xb84 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_info    0x000000000000b3b4     0x36b1 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_info    0x000000000000ea65     0x16ef CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_info    0x0000000000010154     0x19a5 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
-.debug_abbrev   0x0000000000000000     0x29a8
+.debug_abbrev   0x0000000000000000     0x298c
  .debug_abbrev  0x0000000000000000      0x1fe CMakeFiles/anal_mic_rel.dir/Src/adc.c.obj
  .debug_abbrev  0x00000000000001fe      0x197 CMakeFiles/anal_mic_rel.dir/Src/gpio.c.obj
  .debug_abbrev  0x0000000000000395      0x380 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
  .debug_abbrev  0x0000000000000715       0xf7 CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
  .debug_abbrev  0x000000000000080c      0x11a CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_abbrev  0x0000000000000926      0x1f7 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
- .debug_abbrev  0x0000000000000b1d      0x255 CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
- .debug_abbrev  0x0000000000000d72      0x209 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
- .debug_abbrev  0x0000000000000f7b      0x1ed CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
- .debug_abbrev  0x0000000000001168      0x12c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
- .debug_abbrev  0x0000000000001294       0x12 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
- .debug_abbrev  0x00000000000012a6      0x24a CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_abbrev  0x00000000000014f0      0x226 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_abbrev  0x0000000000001716      0x27f CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_abbrev  0x0000000000001995      0x390 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_abbrev  0x0000000000001d25      0x21c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_abbrev  0x0000000000001f41      0x2ae CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_abbrev  0x00000000000021ef      0x269 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_abbrev  0x0000000000002458      0x27f CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00000000000026d7      0x2d1 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_abbrev  0x0000000000000926      0x1db CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+ .debug_abbrev  0x0000000000000b01      0x255 CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
+ .debug_abbrev  0x0000000000000d56      0x209 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
+ .debug_abbrev  0x0000000000000f5f      0x1ed CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
+ .debug_abbrev  0x000000000000114c      0x12c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+ .debug_abbrev  0x0000000000001278       0x12 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
+ .debug_abbrev  0x000000000000128a      0x24a CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_abbrev  0x00000000000014d4      0x226 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_abbrev  0x00000000000016fa      0x27f CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_abbrev  0x0000000000001979      0x390 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_abbrev  0x0000000000001d09      0x21c CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_abbrev  0x0000000000001f25      0x2ae CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_abbrev  0x00000000000021d3      0x269 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_abbrev  0x000000000000243c      0x27f CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x00000000000026bb      0x2d1 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
 .debug_loc      0x0000000000000000     0x92d4
  .debug_loc     0x0000000000000000       0x84 CMakeFiles/anal_mic_rel.dir/Src/adc.c.obj
@@ -2988,27 +2986,27 @@ OUTPUT(anal_mic_rel elf32-littlearm)
  .debug_ranges  0x0000000000000960      0x140 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
  .debug_ranges  0x0000000000000aa0      0x1c0 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
-.debug_line     0x0000000000000000     0xce7a
+.debug_line     0x0000000000000000     0xcea3
  .debug_line    0x0000000000000000      0x4f9 CMakeFiles/anal_mic_rel.dir/Src/adc.c.obj
  .debug_line    0x00000000000004f9      0x30d CMakeFiles/anal_mic_rel.dir/Src/gpio.c.obj
- .debug_line    0x0000000000000806      0x718 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
- .debug_line    0x0000000000000f1e      0x195 CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
- .debug_line    0x00000000000010b3      0x2a4 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
- .debug_line    0x0000000000001357      0x4b1 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
- .debug_line    0x0000000000001808      0x1a1 CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
- .debug_line    0x00000000000019a9      0x3c7 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
- .debug_line    0x0000000000001d70      0x414 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
- .debug_line    0x0000000000002184      0x33b CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
- .debug_line    0x00000000000024bf       0xe5 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
- .debug_line    0x00000000000025a4      0x657 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
- .debug_line    0x0000000000002bfb     0x10bd CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
- .debug_line    0x0000000000003cb8      0xd6a CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
- .debug_line    0x0000000000004a22      0x894 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
- .debug_line    0x00000000000052b6      0x7fd CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
- .debug_line    0x0000000000005ab3      0xc26 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
- .debug_line    0x00000000000066d9     0x376b CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
- .debug_line    0x0000000000009e44     0x12db CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
- .debug_line    0x000000000000b11f     0x1d5b CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
+ .debug_line    0x0000000000000806      0x74c CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
+ .debug_line    0x0000000000000f52      0x195 CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
+ .debug_line    0x00000000000010e7      0x2a4 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
+ .debug_line    0x000000000000138b      0x4a6 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+ .debug_line    0x0000000000001831      0x1a1 CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
+ .debug_line    0x00000000000019d2      0x3c7 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
+ .debug_line    0x0000000000001d99      0x414 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
+ .debug_line    0x00000000000021ad      0x33b CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
+ .debug_line    0x00000000000024e8       0xe5 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj
+ .debug_line    0x00000000000025cd      0x657 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj
+ .debug_line    0x0000000000002c24     0x10bd CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj
+ .debug_line    0x0000000000003ce1      0xd6a CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj
+ .debug_line    0x0000000000004a4b      0x894 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj
+ .debug_line    0x00000000000052df      0x7fd CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj
+ .debug_line    0x0000000000005adc      0xc26 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj
+ .debug_line    0x0000000000006702     0x376b CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj
+ .debug_line    0x0000000000009e6d     0x12db CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
+ .debug_line    0x000000000000b148     0x1d5b CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 
 .debug_str      0x0000000000000000     0x452a
  .debug_str     0x0000000000000000      0x9ab CMakeFiles/anal_mic_rel.dir/Src/adc.c.obj
@@ -3022,7 +3020,7 @@ OUTPUT(anal_mic_rel elf32-littlearm)
  .debug_str     0x0000000000001879       0x4d CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
                                         0x446 (size before relaxing)
  .debug_str     0x00000000000018c6      0x165 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
-                                        0xa30 (size before relaxing)
+                                        0xa34 (size before relaxing)
  .debug_str     0x0000000000001a2b       0x80 CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
                                         0x65c (size before relaxing)
  .debug_str     0x0000000000001aab       0x94 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
