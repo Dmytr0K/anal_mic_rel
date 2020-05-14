@@ -79,49 +79,73 @@ void blink(uint8_t num);
   * @brief  The application entry point.
   * @retval int
   */
-int main(void)
-{
-  /* USER CODE BEGIN 1 */
+int main(void) {
+    /* USER CODE BEGIN 1 */
 
-  /* USER CODE END 1 */
+    /* USER CODE END 1 */
 
-  /* MCU Configuration--------------------------------------------------------*/
+    /* MCU Configuration--------------------------------------------------------*/
 
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+    /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+    HAL_Init();
 
-  /* USER CODE BEGIN Init */
+    /* USER CODE BEGIN Init */
 
-  /* USER CODE END Init */
+    /* USER CODE END Init */
 
-  /* Configure the system clock */
-  SystemClock_Config();
+    /* Configure the system clock */
+    SystemClock_Config();
 
-  /* USER CODE BEGIN SysInit */
+    /* USER CODE BEGIN SysInit */
 
-  /* USER CODE END SysInit */
+    /* USER CODE END SysInit */
 
-  /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  MX_ADC1_Init();
-  MX_USART2_UART_Init();
-  MX_TIM10_Init();
-  /* USER CODE BEGIN 2 */
-  HAL_TIM_Base_Start_IT(&htim10);
-  /* USER CODE END 2 */
+    /* Initialize all configured peripherals */
+    MX_GPIO_Init();
+    MX_ADC1_Init();
+    MX_USART2_UART_Init();
+    MX_TIM10_Init();
+    /* USER CODE BEGIN 2 */
+    HAL_TIM_Base_Start_IT(&htim10);
+    /* USER CODE END 2 */
 
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
-  while (1)
-  {
-//      blink(3);
-    /* USER CODE END WHILE */
+    /* Infinite loop */
+    /* USER CODE BEGIN WHILE */
+    while (1) {
+        if (mode == shift || mode == angle) {
+            while (1) {
+//              if (CURRENT_SAMPLE == SAMPLE_NUM) {
+//                  HAL_TIM_Base_Stop_IT(&htim10);
+//                  shift = findShift(MIC_SAMPLES);
+//                  if (mode == shift) {
+//                      sprintf(MIC_STR, "%d\r\n", shift);
+//                  }
+//                  if (mode == angle) {
+//                      time = (float) shift / 40000;
+//                      angle = asin(time * 343 / 0.18);
+//                      sprintf(MIC_STR, "%f\r\n", angle);
+//                  }
+//                  CURRENT_SAMPLE = 0;
+//                  HAL_TIM_Base_Start_IT(&htim10);
+//              }
+            }
+        } else if (mode == REAL_TIME) {
+          while (1) {
+              sprintf(MIC_STR, "%f,%f\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
+              CURRENT_SAMPLE = 0;
+          }
+        } else if (mode == SAMPLE) {
+//          while (1) {
+//              sprintf(MIC_STR, "%f,%f\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
+//              CURRENT_SAMPLE = 0;
+//          }
+        }
+        /* USER CODE END WHILE */
 
-    /* USER CODE BEGIN 3 */
-  }
-  /* USER CODE END 3 */
+        /* USER CODE BEGIN 3 */
+    }
+    /* USER CODE END 3 */
 }
-
 /**
   * @brief System Clock Configuration
   * @retval None

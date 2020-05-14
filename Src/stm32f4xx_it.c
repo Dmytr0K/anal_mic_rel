@@ -207,7 +207,10 @@ void TIM1_UP_TIM10_IRQHandler(void)
   /* USER CODE END TIM1_UP_TIM10_IRQn 0 */
   HAL_TIM_IRQHandler(&htim10);
   /* USER CODE BEGIN TIM1_UP_TIM10_IRQn 1 */
-
+    HAL_ADCEx_InjectedStart(&hadc1);
+    MIC_SAMPLES[CURRENT_SAMPLE][0] = (float)HAL_ADCEx_InjectedGetValue(&hadc1,ADC_INJECTED_RANK_1) * k_adc;
+    MIC_SAMPLES[CURRENT_SAMPLE][1] = (float)HAL_ADCEx_InjectedGetValue(&hadc1,ADC_INJECTED_RANK_2) * k_adc;
+    CURRENT_SAMPLE++;
   /* USER CODE END TIM1_UP_TIM10_IRQn 1 */
 }
 

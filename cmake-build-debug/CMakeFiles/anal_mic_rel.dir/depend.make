@@ -456,6 +456,7 @@ CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj: /Users/dmitry/STM32Cube
 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h
 
 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj: ../Inc/main.h
+CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj: ../Inc/settings.h
 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj: ../Inc/stm32f4xx_hal_conf.h
 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj: ../Inc/stm32f4xx_it.h
 CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj: ../Src/stm32f4xx_it.c
