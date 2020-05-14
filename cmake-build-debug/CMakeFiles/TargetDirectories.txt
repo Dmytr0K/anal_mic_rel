@@ -1,0 +1,5 @@
+/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles/anal_mic_rel.bin.dir
+/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles/anal_mic_rel.hex.dir
+/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles/anal_mic_rel.dir
