@@ -229,6 +229,8 @@ CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
  ../Inc/adc.h
  ../Inc/gpio.h
  ../Inc/main.h
+ ../Inc/mic_direction.h
+ ../Inc/settings.h
  ../Inc/stm32f4xx_hal_conf.h
  ../Inc/tim.h
  ../Inc/usart.h

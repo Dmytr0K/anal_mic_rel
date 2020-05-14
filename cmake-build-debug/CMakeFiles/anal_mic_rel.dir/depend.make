@@ -228,6 +228,8 @@ CMakeFiles/anal_mic_rel.dir/Src/gpio.c.obj: /Users/dmitry/STM32Cube/Repository/S
 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj: ../Inc/adc.h
 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj: ../Inc/gpio.h
 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj: ../Inc/main.h
+CMakeFiles/anal_mic_rel.dir/Src/main.c.obj: ../Inc/mic_direction.h
+CMakeFiles/anal_mic_rel.dir/Src/main.c.obj: ../Inc/settings.h
 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj: ../Inc/stm32f4xx_hal_conf.h
 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj: ../Inc/tim.h
 CMakeFiles/anal_mic_rel.dir/Src/main.c.obj: ../Inc/usart.h

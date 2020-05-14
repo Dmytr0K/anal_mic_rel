@@ -27,12 +27,19 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "settings.h"
+#include "mic_direction.h"
+#include <math.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-
+enum Modes {
+    SHIFT = 0,
+    ANGLE,
+    REAL_TIME,
+    SAMPLE
+};
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -47,7 +54,14 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+volatile float MIC_SAMPLES[SAMPLE_NUM][2];
+volatile uint16_t CURRENT_SAMPLE = 0;
+char MIC_STR[32];
+uint8_t shift = 0;
+float time = 0;
+float angle = 0;
+enum Modes mode = SHIFT;
+uint8_t MAX_MODE = 3;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -93,14 +107,14 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM10_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_TIM_Base_Start_IT(&htim10);
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-      blink(3);
+//      blink(3);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
@@ -152,6 +166,17 @@ void SystemClock_Config(void)
 }
 
 /* USER CODE BEGIN 4 */
+HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
+    if (GPIO_Pin == GPIO_PIN_13) {
+        if (mode < MAX_MODE) {
+            mode += 1;
+        } else {
+            mode = 0;
+        }
+        blink(mode + 1);
+    }
+}
+
 void blink(uint8_t num) {
     for (int i = 0; i < num; i++) {
         HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 1);
