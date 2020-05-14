@@ -147,6 +147,8 @@ mic_direction.h
 /Users/dmitry/CLionProjects/anal_mic_rel/Src/mic_direction.h
 math.h
 -
+stdbool.h
+-
 
 /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h
 core_cm4.h

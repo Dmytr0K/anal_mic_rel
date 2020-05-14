@@ -130,6 +130,15 @@
 		<Unit filename="/Users/dmitry/CLionProjects/anal_mic_rel/Src/stm32f4xx_it.c">
 			<Option target="anal_mic_rel"/>
 		</Unit>
+		<Unit filename="/Users/dmitry/CLionProjects/anal_mic_rel/Src/sys.c">
+			<Option target="anal_mic_rel"/>
+		</Unit>
+		<Unit filename="/Users/dmitry/CLionProjects/anal_mic_rel/Src/syscalls.c">
+			<Option target="anal_mic_rel"/>
+		</Unit>
+		<Unit filename="/Users/dmitry/CLionProjects/anal_mic_rel/Src/sysmem.c">
+			<Option target="anal_mic_rel"/>
+		</Unit>
 		<Unit filename="/Users/dmitry/CLionProjects/anal_mic_rel/Src/tim.c">
 			<Option target="anal_mic_rel"/>
 		</Unit>

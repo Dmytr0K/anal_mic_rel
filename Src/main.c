@@ -30,6 +30,7 @@
 #include "settings.h"
 #include "mic_direction.h"
 #include <math.h>
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -61,11 +62,13 @@ uint8_t shift = 0;
 float time = 0;
 float angle = 0;
 enum Modes mode = SHIFT;
+bool change_mode = false;
 uint8_t MAX_MODE = 3;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
+
 /* USER CODE BEGIN PFP */
 void blink(uint8_t num);
 /* USER CODE END PFP */
@@ -112,33 +115,50 @@ int main(void) {
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
-        if (mode == shift || mode == angle) {
+        if (mode == SHIFT || mode == ANGLE) {
             while (1) {
-//              if (CURRENT_SAMPLE == SAMPLE_NUM) {
-//                  HAL_TIM_Base_Stop_IT(&htim10);
-//                  shift = findShift(MIC_SAMPLES);
-//                  if (mode == shift) {
-//                      sprintf(MIC_STR, "%d\r\n", shift);
-//                  }
-//                  if (mode == angle) {
-//                      time = (float) shift / 40000;
-//                      angle = asin(time * 343 / 0.18);
-//                      sprintf(MIC_STR, "%f\r\n", angle);
-//                  }
-//                  CURRENT_SAMPLE = 0;
-//                  HAL_TIM_Base_Start_IT(&htim10);
-//              }
+                if (CURRENT_SAMPLE == SAMPLE_NUM) {
+                    HAL_TIM_Base_Stop_IT(&htim10);
+                    shift = findShift(MIC_SAMPLES);
+                    if (mode == SHIFT) {
+                        sprintf(MIC_STR, "%d\r\n", shift);
+                    }
+                    if (mode == ANGLE) {
+                        time = (float) shift / 40000;
+                        angle = asin(time * 343 / 0.18);
+                        sprintf(MIC_STR, "%f\r\n", angle);
+                    }
+                    HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
+                    CURRENT_SAMPLE = 0;
+                    HAL_TIM_Base_Start_IT(&htim10);
+                }
+                if (change_mode) {
+                    change_mode = false;
+                    break;
+                }
             }
         } else if (mode == REAL_TIME) {
-          while (1) {
-              sprintf(MIC_STR, "%f,%f\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
-              CURRENT_SAMPLE = 0;
-          }
+            while (1) {
+//                sprintf(MIC_STR, "%f,%f\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
+                sprintf(MIC_STR, "wtf3\r\n");
+                HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
+                CURRENT_SAMPLE = 0;
+                if (change_mode) {
+                    change_mode = false;
+                    break;
+                }
+            }
         } else if (mode == SAMPLE) {
-//          while (1) {
-//              sprintf(MIC_STR, "%f,%f\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
-//              CURRENT_SAMPLE = 0;
-//          }
+            while (1) {
+//                sprintf(MIC_STR, "%f,%f\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
+                sprintf(MIC_STR, "wtf4\r\n");
+                HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
+                CURRENT_SAMPLE = 0;
+                if (change_mode) {
+                    change_mode = false;
+                    break;
+                }
+            }
         }
         /* USER CODE END WHILE */
 
@@ -146,67 +166,68 @@ int main(void) {
     }
     /* USER CODE END 3 */
 }
+
 /**
   * @brief System Clock Configuration
   * @retval None
   */
-void SystemClock_Config(void)
-{
-  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
-  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+void SystemClock_Config(void) {
+    RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+    RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
 
-  /** Configure the main internal regulator output voltage 
-  */
-  __HAL_RCC_PWR_CLK_ENABLE();
-  __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE2);
-  /** Initializes the CPU, AHB and APB busses clocks 
-  */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
-  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
-  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
-  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
-  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
-  RCC_OscInitStruct.PLL.PLLM = 8;
-  RCC_OscInitStruct.PLL.PLLN = 84;
-  RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
-  RCC_OscInitStruct.PLL.PLLQ = 4;
-  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /** Initializes the CPU, AHB and APB busses clocks 
-  */
-  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
-                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
-  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
-  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
-  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
-  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+    /** Configure the main internal regulator output voltage
+    */
+    __HAL_RCC_PWR_CLK_ENABLE();
+    __HAL_PWR_VOLTAGESCALING_CONFIG(PWR_REGULATOR_VOLTAGE_SCALE2);
+    /** Initializes the CPU, AHB and APB busses clocks
+    */
+    RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+    RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+    RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+    RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+    RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+    RCC_OscInitStruct.PLL.PLLM = 8;
+    RCC_OscInitStruct.PLL.PLLN = 84;
+    RCC_OscInitStruct.PLL.PLLP = RCC_PLLP_DIV2;
+    RCC_OscInitStruct.PLL.PLLQ = 4;
+    if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK) {
+        Error_Handler();
+    }
+    /** Initializes the CPU, AHB and APB busses clocks
+    */
+    RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_SYSCLK
+                                  | RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2;
+    RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+    RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+    RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
+    RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
-  {
-    Error_Handler();
-  }
+    if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK) {
+        Error_Handler();
+    }
 }
 
 /* USER CODE BEGIN 4 */
-HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
-    if (GPIO_Pin == GPIO_PIN_13) {
-        if (mode < MAX_MODE) {
-            mode += 1;
-        } else {
-            mode = 0;
-        }
-        blink(mode + 1);
-    }
+HAL_GPIO_EXTI_Callback(uint16_t
+GPIO_Pin) {
+if (GPIO_Pin == GPIO_PIN_13) {
+if (mode < MAX_MODE) {
+mode += 1;
+} else {
+mode = 0;
+}
+blink(mode
++ 1);
+}
+change_mode = true;
 }
 
 void blink(uint8_t num) {
     for (int i = 0; i < num; i++) {
         HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 1);
-        HAL_Delay(500);
+        HAL_Delay(200);
         HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7, 0);
-        HAL_Delay(500);
+        HAL_Delay(200);
     }
 }
 /* USER CODE END 4 */
@@ -215,12 +236,11 @@ void blink(uint8_t num) {
   * @brief  This function is executed in case of error occurrence.
   * @retval None
   */
-void Error_Handler(void)
-{
-  /* USER CODE BEGIN Error_Handler_Debug */
-  /* User can add his own implementation to report the HAL error return state */
+void Error_Handler(void) {
+    /* USER CODE BEGIN Error_Handler_Debug */
+    /* User can add his own implementation to report the HAL error return state */
 
-  /* USER CODE END Error_Handler_Debug */
+    /* USER CODE END Error_Handler_Debug */
 }
 
 #ifdef  USE_FULL_ASSERT

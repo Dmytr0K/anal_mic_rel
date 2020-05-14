@@ -135,9 +135,48 @@ CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.s"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dmitry/CLionProjects/anal_mic_rel/Src/stm32f4xx_it.c -o CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.s
 
+CMakeFiles/anal_mic_rel.dir/Src/sys.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
+CMakeFiles/anal_mic_rel.dir/Src/sys.c.obj: ../Src/sys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/anal_mic_rel.dir/Src/sys.c.obj"
+	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Src/sys.c.obj   -c /Users/dmitry/CLionProjects/anal_mic_rel/Src/sys.c
+
+CMakeFiles/anal_mic_rel.dir/Src/sys.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/anal_mic_rel.dir/Src/sys.c.i"
+	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dmitry/CLionProjects/anal_mic_rel/Src/sys.c > CMakeFiles/anal_mic_rel.dir/Src/sys.c.i
+
+CMakeFiles/anal_mic_rel.dir/Src/sys.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/anal_mic_rel.dir/Src/sys.c.s"
+	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dmitry/CLionProjects/anal_mic_rel/Src/sys.c -o CMakeFiles/anal_mic_rel.dir/Src/sys.c.s
+
+CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
+CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.obj: ../Src/syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.obj"
+	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.obj   -c /Users/dmitry/CLionProjects/anal_mic_rel/Src/syscalls.c
+
+CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.i"
+	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dmitry/CLionProjects/anal_mic_rel/Src/syscalls.c > CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.i
+
+CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.s"
+	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dmitry/CLionProjects/anal_mic_rel/Src/syscalls.c -o CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.s
+
+CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
+CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj: ../Src/sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj"
+	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj   -c /Users/dmitry/CLionProjects/anal_mic_rel/Src/sysmem.c
+
+CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.i"
+	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/dmitry/CLionProjects/anal_mic_rel/Src/sysmem.c > CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.i
+
+CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.s"
+	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/dmitry/CLionProjects/anal_mic_rel/Src/sysmem.c -o CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.s
+
 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj: ../Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj   -c /Users/dmitry/CLionProjects/anal_mic_rel/Src/tim.c
 
 CMakeFiles/anal_mic_rel.dir/Src/tim.c.i: cmake_force
@@ -150,7 +189,7 @@ CMakeFiles/anal_mic_rel.dir/Src/tim.c.s: cmake_force
 
 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj: ../Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj   -c /Users/dmitry/CLionProjects/anal_mic_rel/Src/usart.c
 
 CMakeFiles/anal_mic_rel.dir/Src/usart.c.i: cmake_force
@@ -163,7 +202,7 @@ CMakeFiles/anal_mic_rel.dir/Src/usart.c.s: cmake_force
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.i: cmake_force
@@ -176,12 +215,12 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building ASM object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s.obj -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc/startup_stm32f401xe.s
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
@@ -194,7 +233,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
@@ -207,7 +246,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
@@ -220,7 +259,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
@@ -233,7 +272,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cec.c.i: cmake_force
@@ -246,7 +285,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
@@ -259,7 +298,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c.i: cmake_force
@@ -272,7 +311,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp.c.i: cmake_force
@@ -285,7 +324,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cryp_ex.c.i: cmake_force
@@ -298,7 +337,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i: cmake_force
@@ -311,7 +350,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i: cmake_force
@@ -324,7 +363,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi.c.i: cmake_force
@@ -337,7 +376,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dcmi_ex.c.i: cmake_force
@@ -350,7 +389,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
@@ -363,7 +402,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
@@ -376,7 +415,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma2d.c.i: cmake_force
@@ -389,7 +428,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_eth.c.i: cmake_force
@@ -402,7 +441,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
@@ -415,7 +454,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
@@ -428,7 +467,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -441,7 +480,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c.c.i: cmake_force
@@ -454,7 +493,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_fmpi2c_ex.c.i: cmake_force
@@ -467,7 +506,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
@@ -480,7 +519,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash.c.i: cmake_force
@@ -493,7 +532,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hash_ex.c.i: cmake_force
@@ -506,7 +545,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_hcd.c.i: cmake_force
@@ -519,7 +558,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c.i: cmake_force
@@ -532,7 +571,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c.i: cmake_force
@@ -545,7 +584,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s.c.i: cmake_force
@@ -558,7 +597,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2s_ex.c.i: cmake_force
@@ -571,7 +610,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_irda.c.i: cmake_force
@@ -584,7 +623,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_iwdg.c.i: cmake_force
@@ -597,7 +636,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_ltdc.c.i: cmake_force
@@ -610,7 +649,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nand.c.i: cmake_force
@@ -623,7 +662,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_nor.c.i: cmake_force
@@ -636,7 +675,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pccard.c.i: cmake_force
@@ -649,7 +688,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c.i: cmake_force
@@ -662,7 +701,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c.i: cmake_force
@@ -675,7 +714,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
@@ -688,7 +727,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
@@ -701,7 +740,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_qspi.c.i: cmake_force
@@ -714,7 +753,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
@@ -727,7 +766,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
@@ -740,7 +779,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.i: cmake_force
@@ -753,7 +792,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c.i: cmake_force
@@ -766,7 +805,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c.i: cmake_force
@@ -779,7 +818,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai.c.i: cmake_force
@@ -792,7 +831,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sai_ex.c.i: cmake_force
@@ -805,7 +844,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sd.c.i: cmake_force
@@ -818,7 +857,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sdram.c.i: cmake_force
@@ -831,7 +870,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_smartcard.c.i: cmake_force
@@ -844,7 +883,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spdifrx.c.i: cmake_force
@@ -857,7 +896,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c.i: cmake_force
@@ -870,7 +909,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i: cmake_force
@@ -883,7 +922,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
@@ -896,7 +935,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
@@ -909,7 +948,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
@@ -922,7 +961,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.i: cmake_force
@@ -935,7 +974,7 @@ CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: CMakeFiles/anal_mic_rel.dir/flags.make
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj: /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj"
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj   -c /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c
 
 CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.i: cmake_force
@@ -954,6 +993,9 @@ anal_mic_rel_OBJECTS = \
 "CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj" \
 "CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj" \
 "CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj" \
+"CMakeFiles/anal_mic_rel.dir/Src/sys.c.obj" \
+"CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.obj" \
+"CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj" \
 "CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj" \
 "CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj" \
 "CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj" \
@@ -1027,6 +1069,9 @@ anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Src/main.c.obj
 anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Src/mic_direction.c.obj
 anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_hal_msp.c.obj
 anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.obj
+anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Src/sys.c.obj
+anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.obj
+anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
 anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Src/tim.c.obj
 anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Src/usart.c.obj
 anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c.obj
@@ -1092,7 +1137,7 @@ anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM3
 anal_mic_rel: CMakeFiles/anal_mic_rel.dir/Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_wwdg.c.obj
 anal_mic_rel: CMakeFiles/anal_mic_rel.dir/build.make
 anal_mic_rel: CMakeFiles/anal_mic_rel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Linking C executable anal_mic_rel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dmitry/CLionProjects/anal_mic_rel/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking C executable anal_mic_rel"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/anal_mic_rel.dir/link.txt --verbose=$(VERBOSE)
 	/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-size anal_mic_rel
 

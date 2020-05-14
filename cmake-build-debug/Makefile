@@ -311,6 +311,87 @@ Src/stm32f4xx_it.c.s:
 	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/stm32f4xx_it.c.s
 .PHONY : Src/stm32f4xx_it.c.s
 
+Src/sys.obj: Src/sys.c.obj
+
+.PHONY : Src/sys.obj
+
+# target to build an object file
+Src/sys.c.obj:
+	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/sys.c.obj
+.PHONY : Src/sys.c.obj
+
+Src/sys.i: Src/sys.c.i
+
+.PHONY : Src/sys.i
+
+# target to preprocess a source file
+Src/sys.c.i:
+	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/sys.c.i
+.PHONY : Src/sys.c.i
+
+Src/sys.s: Src/sys.c.s
+
+.PHONY : Src/sys.s
+
+# target to generate assembly for a file
+Src/sys.c.s:
+	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/sys.c.s
+.PHONY : Src/sys.c.s
+
+Src/syscalls.obj: Src/syscalls.c.obj
+
+.PHONY : Src/syscalls.obj
+
+# target to build an object file
+Src/syscalls.c.obj:
+	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.obj
+.PHONY : Src/syscalls.c.obj
+
+Src/syscalls.i: Src/syscalls.c.i
+
+.PHONY : Src/syscalls.i
+
+# target to preprocess a source file
+Src/syscalls.c.i:
+	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.i
+.PHONY : Src/syscalls.c.i
+
+Src/syscalls.s: Src/syscalls.c.s
+
+.PHONY : Src/syscalls.s
+
+# target to generate assembly for a file
+Src/syscalls.c.s:
+	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/syscalls.c.s
+.PHONY : Src/syscalls.c.s
+
+Src/sysmem.obj: Src/sysmem.c.obj
+
+.PHONY : Src/sysmem.obj
+
+# target to build an object file
+Src/sysmem.c.obj:
+	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.obj
+.PHONY : Src/sysmem.c.obj
+
+Src/sysmem.i: Src/sysmem.c.i
+
+.PHONY : Src/sysmem.i
+
+# target to preprocess a source file
+Src/sysmem.c.i:
+	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.i
+.PHONY : Src/sysmem.c.i
+
+Src/sysmem.s: Src/sysmem.c.s
+
+.PHONY : Src/sysmem.s
+
+# target to generate assembly for a file
+Src/sysmem.c.s:
+	$(MAKE) -f CMakeFiles/anal_mic_rel.dir/build.make CMakeFiles/anal_mic_rel.dir/Src/sysmem.c.s
+.PHONY : Src/sysmem.c.s
+
 Src/tim.obj: Src/tim.c.obj
 
 .PHONY : Src/tim.obj
@@ -2023,6 +2104,15 @@ help:
 	@echo "... Src/stm32f4xx_it.obj"
 	@echo "... Src/stm32f4xx_it.i"
 	@echo "... Src/stm32f4xx_it.s"
+	@echo "... Src/sys.obj"
+	@echo "... Src/sys.i"
+	@echo "... Src/sys.s"
+	@echo "... Src/syscalls.obj"
+	@echo "... Src/syscalls.i"
+	@echo "... Src/syscalls.s"
+	@echo "... Src/sysmem.obj"
+	@echo "... Src/sysmem.i"
+	@echo "... Src/sysmem.s"
 	@echo "... Src/tim.obj"
 	@echo "... Src/tim.i"
 	@echo "... Src/tim.s"

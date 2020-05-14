@@ -181,8 +181,8 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 //Path to a program.
 CMAKE_STRIP:FILEPATH=/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-strip
 
-//The CMake toolchain file
-CMAKE_TOOLCHAIN_FILE:FILEPATH=/Users/dmitry/STM32/stm32-cmake/cmake/gcc_stm32.cmake
+//No help, variable specified on the command line.
+CMAKE_TOOLCHAIN_FILE:UNINITIALIZED=/Users/dmitry/STM32/stm32-cmake/cmake/gcc_stm32.cmake
 
 //If this value is on, makefiles will be generated without the
 // .SILENT directive, and all commands will be echoed to the console
@@ -553,12 +553,8 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
-//ADVANCED property for variable: CMAKE_OBJCOPY
-CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //objcopy tool
 CMAKE_OBJCOPY:INTERNAL=/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-objcopy
-//ADVANCED property for variable: CMAKE_OBJDUMP
-CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 //objdump tool
 CMAKE_OBJDUMP:INTERNAL=/Users/dmitry/STM32/gcc-arm-none-eabi-9-2019-q4-major/bin/arm-none-eabi-objdump
 //Platform information initialized
