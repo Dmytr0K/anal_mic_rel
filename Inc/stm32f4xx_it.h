@@ -29,6 +29,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "settings.h"
+#include <stdbool.h>
 /* USER CODE END Includes */
 
 /* Exported types ------------------------------------------------------------*/
@@ -36,6 +37,8 @@
 extern volatile uint16_t MIC_SAMPLES[SAMPLE_NUM][2];
 extern volatile uint16_t CURRENT_SAMPLE;
 extern ADC_HandleTypeDef hadc1;
+extern  bool sample_ready;
+
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/
@@ -59,6 +62,7 @@ void DebugMon_Handler(void);
 void PendSV_Handler(void);
 void SysTick_Handler(void);
 void TIM1_UP_TIM10_IRQHandler(void);
+void TIM1_TRG_COM_TIM11_IRQHandler(void);
 void EXTI15_10_IRQHandler(void);
 /* USER CODE BEGIN EFP */
 

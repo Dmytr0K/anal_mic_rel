@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
+../Inc/adc.h
+main.h
+../Inc/main.h
+
+../Inc/gpio.h
+main.h
+../Inc/main.h
+
 ../Inc/main.h
 stm32f4xx_hal.h
 ../Inc/stm32f4xx_hal.h
+
+../Inc/mic_direction.h
+stdint.h
+-
+settings.h
+../Inc/settings.h
 
 ../Inc/settings.h
 
@@ -108,15 +122,33 @@ stm32f4xx_hal_dfsdm.h
 stm32f4xx_hal_lptim.h
 ../Inc/stm32f4xx_hal_lptim.h
 
-../Inc/stm32f4xx_it.h
-settings.h
-../Inc/settings.h
+../Inc/tim.h
+main.h
+../Inc/main.h
 
-/Users/dmitry/CLionProjects/anal_mic_rel/Src/stm32f4xx_it.c
+../Inc/usart.h
+main.h
+../Inc/main.h
+
+/Users/dmitry/CLionProjects/anal_mic_rel/Src/main.c
 main.h
 /Users/dmitry/CLionProjects/anal_mic_rel/Src/main.h
-stm32f4xx_it.h
-/Users/dmitry/CLionProjects/anal_mic_rel/Src/stm32f4xx_it.h
+adc.h
+/Users/dmitry/CLionProjects/anal_mic_rel/Src/adc.h
+tim.h
+/Users/dmitry/CLionProjects/anal_mic_rel/Src/tim.h
+usart.h
+/Users/dmitry/CLionProjects/anal_mic_rel/Src/usart.h
+gpio.h
+/Users/dmitry/CLionProjects/anal_mic_rel/Src/gpio.h
+settings.h
+/Users/dmitry/CLionProjects/anal_mic_rel/Src/settings.h
+mic_direction.h
+/Users/dmitry/CLionProjects/anal_mic_rel/Src/mic_direction.h
+math.h
+-
+stdbool.h
+-
 
 /Users/dmitry/STM32Cube/Repository/STM32Cube_FW_F4_V1.25.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f401xc.h
 core_cm4.h

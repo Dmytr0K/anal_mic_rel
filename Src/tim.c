@@ -25,6 +25,7 @@
 /* USER CODE END 0 */
 
 TIM_HandleTypeDef htim10;
+TIM_HandleTypeDef htim11;
 
 /* TIM10 init function */
 void MX_TIM10_Init(void)
@@ -37,6 +38,22 @@ void MX_TIM10_Init(void)
   htim10.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
   htim10.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
   if (HAL_TIM_Base_Init(&htim10) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+}
+/* TIM11 init function */
+void MX_TIM11_Init(void)
+{
+
+  htim11.Instance = TIM11;
+  htim11.Init.Prescaler = 59999;
+  htim11.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim11.Init.Period = 1399;
+  htim11.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim11.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim11) != HAL_OK)
   {
     Error_Handler();
   }
@@ -61,6 +78,21 @@ void HAL_TIM_Base_MspInit(TIM_HandleTypeDef* tim_baseHandle)
 
   /* USER CODE END TIM10_MspInit 1 */
   }
+  else if(tim_baseHandle->Instance==TIM11)
+  {
+  /* USER CODE BEGIN TIM11_MspInit 0 */
+
+  /* USER CODE END TIM11_MspInit 0 */
+    /* TIM11 clock enable */
+    __HAL_RCC_TIM11_CLK_ENABLE();
+
+    /* TIM11 interrupt Init */
+    HAL_NVIC_SetPriority(TIM1_TRG_COM_TIM11_IRQn, 10, 0);
+    HAL_NVIC_EnableIRQ(TIM1_TRG_COM_TIM11_IRQn);
+  /* USER CODE BEGIN TIM11_MspInit 1 */
+
+  /* USER CODE END TIM11_MspInit 1 */
+  }
 }
 
 void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* tim_baseHandle)
@@ -79,6 +111,20 @@ void HAL_TIM_Base_MspDeInit(TIM_HandleTypeDef* tim_baseHandle)
   /* USER CODE BEGIN TIM10_MspDeInit 1 */
 
   /* USER CODE END TIM10_MspDeInit 1 */
+  }
+  else if(tim_baseHandle->Instance==TIM11)
+  {
+  /* USER CODE BEGIN TIM11_MspDeInit 0 */
+
+  /* USER CODE END TIM11_MspDeInit 0 */
+    /* Peripheral clock disable */
+    __HAL_RCC_TIM11_CLK_DISABLE();
+
+    /* TIM11 interrupt Deinit */
+    HAL_NVIC_DisableIRQ(TIM1_TRG_COM_TIM11_IRQn);
+  /* USER CODE BEGIN TIM11_MspDeInit 1 */
+
+  /* USER CODE END TIM11_MspDeInit 1 */
   }
 } 
 
