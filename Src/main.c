@@ -66,6 +66,7 @@ bool change_mode = false;
 bool sample_ready = false;
 uint8_t MAX_MODE = 3;
 int period_value = 2099;
+uint16_t out_samples_counter = 0;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -168,6 +169,7 @@ int main(void) {
 //            period_value = 2099;
             MX_TIM10_Init();
 start_rec:
+            out_samples_counter = 0;
             HAL_TIM_Base_Start_IT(&htim11);
             HAL_TIM_Base_Start_IT(&htim10);
             while (!sample_ready) {}
@@ -177,9 +179,12 @@ start_rec:
                     sprintf(MIC_STR, "%d,%d\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
                     HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
                     CURRENT_SAMPLE = 0;
+                    out_samples_counter++;
                 } else if (sample_ready) {
                     HAL_TIM_Base_Stop_IT(&htim10);
                     HAL_TIM_Base_Stop_IT(&htim11);
+                    sprintf(MIC_STR, "Total: %d\r\n", out_samples_counter);
+                    HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
                     print_message("END");
                     HAL_Delay(3000);
                     goto start_rec;
