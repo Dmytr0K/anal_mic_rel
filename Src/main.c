@@ -119,74 +119,69 @@ int main(void) {
     /* Infinite loop */
     /* USER CODE BEGIN WHILE */
     while (1) {
-//        if (mode == SHIFT || mode == ANGLE) {
-//            print_message("SHIFT/ANGLE MODE");
-//            while (1) {
-//                if (CURRENT_SAMPLE == SAMPLE_NUM) {
-//                    HAL_TIM_Base_Stop_IT(&htim10);
-//                    shift = findShift(MIC_SAMPLES);
-//                    if (mode == SHIFT) {
-//                        sprintf(MIC_STR, "%d\r\n", shift);
-//                    }
-//                    if (mode == ANGLE) {
-//                        time = (float) shift / 40000;
-//                        angle = asin(time * 343 / 0.18);
-//                        sprintf(MIC_STR, "%f\r\n", angle);
-//                    }
-//                    HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
-//                    CURRENT_SAMPLE = 0;
-//                    HAL_TIM_Base_Start_IT(&htim10);
-//                }
-//                if (change_mode) {
-//                    change_mode = false;
-//                    break;
-//                }
-//            }
-//        } else if (mode == REAL_TIME) {
-//            print_message("REAL TIME MODE");
-//            while (1) {
-//                if (CURRENT_SAMPLE) {
-//                    sprintf(MIC_STR, "%d,%d\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
-//                    HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
-//                    CURRENT_SAMPLE = 0;
-//                }
-//                if (change_mode) {
-//                    change_mode = false;
-//                    break;
-//                }
-//            }
-//        } else if (mode == SAMPLE) {
-        print_message("SAMPLE MODE");
-//            start_rec:
-//            TIM11->CNT = 0;
-        HAL_TIM_Base_Start_IT(&htim11);
-        HAL_TIM_Base_Start_IT(&htim10);
-        while (!sample_ready) {}
-        sample_ready = false;
-        while (1) {
-            if (CURRENT_SAMPLE && !sample_ready) {
-                sprintf(MIC_STR, "%d,%d\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
-                HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
-                CURRENT_SAMPLE = 0;
-            } else if (sample_ready) {
-                HAL_TIM_Base_Stop_IT(&htim10);
-                HAL_TIM_Base_Stop_IT(&htim11);
-//                    sample_readready = false;
-                print_message("END");
-//                    goto start_rec;
-//                    HAL_Delay(1000);
-                print_message("SAMPLE MODE");
-                HAL_TIM_Base_Start_IT(&htim11);
-                HAL_TIM_Base_Start_IT(&htim10);
-                while (!sample_ready) {}
-                sample_ready = false;
+        if (mode == SHIFT || mode == ANGLE) {
+            print_message("SHIFT/ANGLE MODE");
+            HAL_TIM_Base_Start_IT(&htim10);
+            while (1) {
+                if (CURRENT_SAMPLE == SAMPLE_NUM) {
+                    HAL_TIM_Base_Stop_IT(&htim10);
+                    shift = findShift(MIC_SAMPLES);
+                    if (mode == SHIFT) {
+                        sprintf(MIC_STR, "%d\r\n", shift);
+                    }
+                    if (mode == ANGLE) {
+                        time = (float) shift / 40000;
+                        angle = asin(time * 343 / 0.18);
+                        sprintf(MIC_STR, "%f\r\n", angle);
+                    }
+                    HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
+                    CURRENT_SAMPLE = 0;
+                    HAL_TIM_Base_Start_IT(&htim10);
+                }
+                if (change_mode) {
+                    change_mode = false;
+                    break;
+                }
             }
-            if (change_mode) {
-                change_mode = false;
-                break;
+        } else if (mode == REAL_TIME) {
+            print_message("REAL TIME MODE");
+            HAL_TIM_Base_Start_IT(&htim10);
+            while (1) {
+                if (CURRENT_SAMPLE) {
+                    sprintf(MIC_STR, "%d,%d\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
+                    HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
+                    CURRENT_SAMPLE = 0;
+                }
+                if (change_mode) {
+                    change_mode = false;
+                    break;
+                }
+            }
+        } else if (mode == SAMPLE) {
+            print_message("SAMPLE MODE");
+            start_rec:
+            HAL_TIM_Base_Start_IT(&htim11);
+            HAL_TIM_Base_Start_IT(&htim10);
+            while (!sample_ready) {}
+            sample_ready = false;
+            while (1) {
+                if (CURRENT_SAMPLE && !sample_ready) {
+                    sprintf(MIC_STR, "%d,%d\r\n", MIC_SAMPLES[0][0], MIC_SAMPLES[0][1]);
+                    HAL_UART_Transmit(&huart2, MIC_STR, strlen(MIC_STR), 0xFFFF);
+                    CURRENT_SAMPLE = 0;
+                } else if (sample_ready) {
+                    HAL_TIM_Base_Stop_IT(&htim10);
+                    HAL_TIM_Base_Stop_IT(&htim11);
+                    print_message("END");
+                    HAL_Delay(1000);
+                    goto start_rec;
+                }
+                if (change_mode) {
+                    change_mode = false;
+                    break;
+                }
             }
         }
-//        }
         /* USER CODE END WHILE */
 
         /* USER CODE BEGIN 3 */
@@ -237,6 +232,8 @@ void SystemClock_Config(void) {
 /* USER CODE BEGIN 4 */
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
     if (GPIO_Pin == GPIO_PIN_13) {
+        HAL_TIM_Base_Stop_IT(&htim10);
+        HAL_TIM_Base_Stop_IT(&htim11);
         if (mode < MAX_MODE) {
             mode += 1;
         } else {
