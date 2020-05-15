@@ -65,6 +65,7 @@ enum Modes mode = SHIFT;
 bool change_mode = false;
 bool sample_ready = false;
 uint8_t MAX_MODE = 3;
+int period_value = 2099;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -121,6 +122,8 @@ int main(void) {
     while (1) {
         if (mode == SHIFT || mode == ANGLE) {
             print_message("SHIFT/ANGLE MODE");
+            period_value = 2099;
+            MX_TIM10_Init();
             HAL_TIM_Base_Start_IT(&htim10);
             while (1) {
                 if (CURRENT_SAMPLE == SAMPLE_NUM) {
@@ -145,6 +148,8 @@ int main(void) {
             }
         } else if (mode == REAL_TIME) {
             print_message("REAL TIME MODE");
+            period_value = 2099;
+            MX_TIM10_Init();
             HAL_TIM_Base_Start_IT(&htim10);
             while (1) {
                 if (CURRENT_SAMPLE) {
@@ -159,7 +164,10 @@ int main(void) {
             }
         } else if (mode == SAMPLE) {
             print_message("SAMPLE MODE");
-            start_rec:
+            period_value = 16799;
+//            period_value = 2099;
+            MX_TIM10_Init();
+start_rec:
             HAL_TIM_Base_Start_IT(&htim11);
             HAL_TIM_Base_Start_IT(&htim10);
             while (!sample_ready) {}
@@ -173,7 +181,7 @@ int main(void) {
                     HAL_TIM_Base_Stop_IT(&htim10);
                     HAL_TIM_Base_Stop_IT(&htim11);
                     print_message("END");
-                    HAL_Delay(1000);
+                    HAL_Delay(3000);
                     goto start_rec;
                 }
                 if (change_mode) {
